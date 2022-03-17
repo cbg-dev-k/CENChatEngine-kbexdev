@@ -1,0 +1,6 @@
+# use global config from root folder
+# replaced by double config param in build phase
+
+# folder specific overrides
+excluded:
+  - **

@@ -1,0 +1,2409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21768182E30F92E4026168C7 /* Pods_Tests__Test__iOS_Unit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18C9446FB5F9E3925C4FE487 /* Pods_Tests__Test__iOS_Unit.framework */; };
+		44F45F99E847C75E33219F81 /* Pods_Tests__Test__Code_Coverage__Full_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C7A804F01B8CF2701B6932 /* Pods_Tests__Test__Code_Coverage__Full_.framework */; };
+		7945D5C620712B1F00FECBFB /* CEDummyEmitMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06320596848007E15F5 /* CEDummyEmitMiddleware.m */; };
+		7945D5C720712B1F00FECBFB /* CEDummyOnMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06220596848007E15F5 /* CEDummyOnMiddleware.m */; };
+		7945D5C820712B1F00FECBFB /* CEDummyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05820595E50007E15F5 /* CEDummyExtension.m */; };
+		7945D5C920712B1F00FECBFB /* CEDummyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05A20595E50007E15F5 /* CEDummyPlugin.m */; };
+		7945D5CA20712B1F00FECBFB /* CEDummyEmitMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06320596848007E15F5 /* CEDummyEmitMiddleware.m */; };
+		7945D5CB20712B1F00FECBFB /* CEDummyOnMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06220596848007E15F5 /* CEDummyOnMiddleware.m */; };
+		7945D5CC20712B1F00FECBFB /* CEDummyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05820595E50007E15F5 /* CEDummyExtension.m */; };
+		7945D5CD20712B1F00FECBFB /* CEDummyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05A20595E50007E15F5 /* CEDummyPlugin.m */; };
+		797ED0122057C6D2007E15F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED0022057C6D2007E15F5 /* AppDelegate.m */; };
+		797ED0132057C6D2007E15F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED0042057C6D2007E15F5 /* ViewController.m */; };
+		797ED0142057C6D2007E15F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED0072057C6D2007E15F5 /* main.m */; };
+		797ED0162057C6D2007E15F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797ED00C2057C6D2007E15F5 /* Assets.xcassets */; };
+		797ED0172057C6D2007E15F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797ED00E2057C6D2007E15F5 /* LaunchScreen.storyboard */; };
+		797ED0182057C6D2007E15F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797ED0102057C6D2007E15F5 /* Main.storyboard */; };
+		797ED02C205846F1007E15F5 /* test-keysset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 797ED02B205846F1007E15F5 /* test-keysset.plist */; };
+		797ED03220588379007E15F5 /* CENTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED03120588379007E15F5 /* CENTestCase.m */; };
+		797ED05B20595E50007E15F5 /* CEDummyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05820595E50007E15F5 /* CEDummyExtension.m */; };
+		797ED05C20595E50007E15F5 /* CEDummyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05A20595E50007E15F5 /* CEDummyPlugin.m */; };
+		797ED06420596848007E15F5 /* CEDummyOnMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06220596848007E15F5 /* CEDummyOnMiddleware.m */; };
+		797ED06520596848007E15F5 /* CEDummyEmitMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06320596848007E15F5 /* CEDummyEmitMiddleware.m */; };
+		7995DC5D2210A7F500D51933 /* CEN6ChatEngineChatMetaIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B421F73321007BC183 /* CEN6ChatEngineChatMetaIntegrationTest.m */; };
+		7995DC5E2210A93F00D51933 /* CEN7ChatEngineChatInviteIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B521F73321007BC183 /* CEN7ChatEngineChatInviteIntegrationTest.m */; };
+		7995DC5F2210A98500D51933 /* CEN5ChatEngineChatIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B621F73321007BC183 /* CEN5ChatEngineChatIntegrationTest.m */; };
+		7995DC602210AA8800D51933 /* CEN8TypingIndicatorPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A421F73320007BC183 /* CEN8TypingIndicatorPluginIntegrationTest.m */; };
+		7995DC612210ABA200D51933 /* CEN9OnlineSearchPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A521F73320007BC183 /* CEN9OnlineSearchPluginIntegrationTest.m */; };
+		7995DC622210ACDD00D51933 /* CEN10EmojiPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A621F73320007BC183 /* CEN10EmojiPluginIntegrationTest.m */; };
+		7995DC632210AD1300D51933 /* CEN12RandomUsernamePluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A721F73320007BC183 /* CEN12RandomUsernamePluginIntegrationTest.m */; };
+		7995DC642210ADD700D51933 /* CEN11UnreadMessagesPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A821F73320007BC183 /* CEN11UnreadMessagesPluginIntegrationTest.m */; };
+		7995DC652210AF1400D51933 /* CEN13EventStatusPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A921F73320007BC183 /* CEN13EventStatusPluginIntegrationTest.m */; };
+		7995DC662210B04E00D51933 /* CEN14MuterPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AA21F73320007BC183 /* CEN14MuterPluginIntegrationTest.m */; };
+		7995DC672210DA2C00D51933 /* CEN15PushNotificationsPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AB21F73320007BC183 /* CEN15PushNotificationsPluginIntegrationTest.m */; };
+		7995DC682210DADB00D51933 /* CEN16UploadcarePluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AC21F73320007BC183 /* CEN16UploadcarePluginIntegrationTest.m */; };
+		7995DC692210DB6600D51933 /* CEN17MarkdownPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AD21F73320007BC183 /* CEN17MarkdownPluginIntegrationTest.m */; };
+		7995DC6A2210DC0F00D51933 /* CEN18GravatarPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AE21F73320007BC183 /* CEN18GravatarPluginIntegrationTest.m */; };
+		7995DC6B2210DC4F00D51933 /* CEN18GravatarPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AE21F73320007BC183 /* CEN18GravatarPluginIntegrationTest.m */; };
+		7995DC6C2210DC5300D51933 /* CEN17MarkdownPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AD21F73320007BC183 /* CEN17MarkdownPluginIntegrationTest.m */; };
+		7995DC6D2210DC8500D51933 /* CEN1ChatEngineConnectionIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B121F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m */; };
+		7995DC6E2210DC8500D51933 /* CEN4ChatEngineHistoryIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AF21F73320007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m */; };
+		7995DC6F2210DC8500D51933 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B021F73321007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m */; };
+		7995DC702210DC8500D51933 /* CEN2ChatEngineUserStateIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B221F73321007BC183 /* CEN2ChatEngineUserStateIntegrationTest.m */; };
+		7995DC712210DC8500D51933 /* CEN6ChatEngineChatMetaIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B421F73321007BC183 /* CEN6ChatEngineChatMetaIntegrationTest.m */; };
+		7995DC722210DC8500D51933 /* CEN7ChatEngineChatInviteIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B521F73321007BC183 /* CEN7ChatEngineChatInviteIntegrationTest.m */; };
+		7995DC732210DC8500D51933 /* CEN5ChatEngineChatIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B621F73321007BC183 /* CEN5ChatEngineChatIntegrationTest.m */; };
+		7995DC742210DC8500D51933 /* CEN8TypingIndicatorPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A421F73320007BC183 /* CEN8TypingIndicatorPluginIntegrationTest.m */; };
+		7995DC752210DC8500D51933 /* CEN9OnlineSearchPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A521F73320007BC183 /* CEN9OnlineSearchPluginIntegrationTest.m */; };
+		7995DC762210DC8500D51933 /* CEN10EmojiPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A621F73320007BC183 /* CEN10EmojiPluginIntegrationTest.m */; };
+		7995DC772210DC8500D51933 /* CEN12RandomUsernamePluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A721F73320007BC183 /* CEN12RandomUsernamePluginIntegrationTest.m */; };
+		7995DC782210DC8500D51933 /* CEN11UnreadMessagesPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A821F73320007BC183 /* CEN11UnreadMessagesPluginIntegrationTest.m */; };
+		7995DC792210DC8500D51933 /* CEN13EventStatusPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A921F73320007BC183 /* CEN13EventStatusPluginIntegrationTest.m */; };
+		7995DC7A2210DC8500D51933 /* CEN14MuterPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AA21F73320007BC183 /* CEN14MuterPluginIntegrationTest.m */; };
+		7995DC7B2210DC8500D51933 /* CEN15PushNotificationsPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AB21F73320007BC183 /* CEN15PushNotificationsPluginIntegrationTest.m */; };
+		7995DC7C2210DC8500D51933 /* CEN16UploadcarePluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AC21F73320007BC183 /* CEN16UploadcarePluginIntegrationTest.m */; };
+		79A1D2B62073A99600D97E64 /* CEDummyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05A20595E50007E15F5 /* CEDummyPlugin.m */; };
+		79A1D2B72073A99600D97E64 /* CENTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED03120588379007E15F5 /* CENTestCase.m */; };
+		79A1D2B82073A99600D97E64 /* CEDummyOnMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06220596848007E15F5 /* CEDummyOnMiddleware.m */; };
+		79A1D2B92073A99600D97E64 /* CEDummyEmitMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06320596848007E15F5 /* CEDummyEmitMiddleware.m */; };
+		79A1D2BB2073A99600D97E64 /* CEDummyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05820595E50007E15F5 /* CEDummyExtension.m */; };
+		79A1D2CD2073AD3600D97E64 /* test-keysset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 797ED02B205846F1007E15F5 /* test-keysset.plist */; };
+		79A1D2D02073AD3D00D97E64 /* test-keysset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 797ED02B205846F1007E15F5 /* test-keysset.plist */; };
+		79A1D2D12073AD3E00D97E64 /* test-keysset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 797ED02B205846F1007E15F5 /* test-keysset.plist */; };
+		79A82610206CD53B00648EE5 /* CENTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED03120588379007E15F5 /* CENTestCase.m */; };
+		79A82612206D300600648EE5 /* CENTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED03120588379007E15F5 /* CENTestCase.m */; };
+		79B1463721FC99D3007C6B49 /* CEN2ChatEngineUserStateIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B221F73321007BC183 /* CEN2ChatEngineUserStateIntegrationTest.m */; };
+		79C19F3421F731A4007BC183 /* CEDummyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05A20595E50007E15F5 /* CEDummyPlugin.m */; };
+		79C19F3E21F731A4007BC183 /* CENTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED03120588379007E15F5 /* CENTestCase.m */; };
+		79C19F3F21F731A4007BC183 /* CEDummyOnMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06220596848007E15F5 /* CEDummyOnMiddleware.m */; };
+		79C19F4621F731A4007BC183 /* CEDummyEmitMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED06320596848007E15F5 /* CEDummyEmitMiddleware.m */; };
+		79C19F4921F731A4007BC183 /* CEDummyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 797ED05820595E50007E15F5 /* CEDummyExtension.m */; };
+		79C19F5C21F731A4007BC183 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 79D7CF45210E8BEC00F72AF0 /* Fixtures */; };
+		79C19F5D21F731A4007BC183 /* test-keysset.plist in Resources */ = {isa = PBXBuildFile; fileRef = 797ED02B205846F1007E15F5 /* test-keysset.plist */; };
+		79C19FC821F732E1007BC183 /* CENChatEngineEventEmitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6721F732E0007BC183 /* CENChatEngineEventEmitterTest.m */; };
+		79C19FCA21F732E1007BC183 /* CENChatEngineEventEmitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6721F732E0007BC183 /* CENChatEngineEventEmitterTest.m */; };
+		79C19FCB21F732E1007BC183 /* CENChatEngineUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6821F732E0007BC183 /* CENChatEngineUserTest.m */; };
+		79C19FCD21F732E1007BC183 /* CENChatEngineUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6821F732E0007BC183 /* CENChatEngineUserTest.m */; };
+		79C19FCE21F732E1007BC183 /* CENChatEngineTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6921F732E0007BC183 /* CENChatEngineTest.m */; };
+		79C19FD021F732E1007BC183 /* CENChatEngineTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6921F732E0007BC183 /* CENChatEngineTest.m */; };
+		79C19FD121F732E1007BC183 /* CENChatEngineAuthorizationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6A21F732E0007BC183 /* CENChatEngineAuthorizationTest.m */; };
+		79C19FD321F732E1007BC183 /* CENChatEngineAuthorizationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6A21F732E0007BC183 /* CENChatEngineAuthorizationTest.m */; };
+		79C19FD421F732E1007BC183 /* CENChatEngineConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6B21F732E0007BC183 /* CENChatEngineConnectionTest.m */; };
+		79C19FD621F732E1007BC183 /* CENChatEngineConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6B21F732E0007BC183 /* CENChatEngineConnectionTest.m */; };
+		79C19FD721F732E1007BC183 /* CENChatEnginePluginsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6C21F732E0007BC183 /* CENChatEnginePluginsTest.m */; };
+		79C19FD921F732E1007BC183 /* CENChatEnginePluginsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6C21F732E0007BC183 /* CENChatEnginePluginsTest.m */; };
+		79C19FDA21F732E1007BC183 /* CENChatEngineSearchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6D21F732E0007BC183 /* CENChatEngineSearchTest.m */; };
+		79C19FDC21F732E1007BC183 /* CENChatEngineSearchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6D21F732E0007BC183 /* CENChatEngineSearchTest.m */; };
+		79C19FDD21F732E1007BC183 /* CENChatEnginePublishTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6E21F732E0007BC183 /* CENChatEnginePublishTest.m */; };
+		79C19FDF21F732E1007BC183 /* CENChatEnginePublishTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6E21F732E0007BC183 /* CENChatEnginePublishTest.m */; };
+		79C19FE021F732E1007BC183 /* CENChatEngineChatsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6F21F732E0007BC183 /* CENChatEngineChatsTest.m */; };
+		79C19FE221F732E1007BC183 /* CENChatEngineChatsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6F21F732E0007BC183 /* CENChatEngineChatsTest.m */; };
+		79C19FE321F732E1007BC183 /* CENChatEngineSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7021F732E0007BC183 /* CENChatEngineSessionTest.m */; };
+		79C19FE521F732E1007BC183 /* CENChatEngineSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7021F732E0007BC183 /* CENChatEngineSessionTest.m */; };
+		79C19FE621F732E1007BC183 /* CENChatEnginePubNubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7121F732E0007BC183 /* CENChatEnginePubNubTest.m */; };
+		79C19FE821F732E1007BC183 /* CENChatEnginePubNubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7121F732E0007BC183 /* CENChatEnginePubNubTest.m */; };
+		79C19FE921F732E1007BC183 /* CENChatSearchBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7421F732E0007BC183 /* CENChatSearchBuilderInterfaceTest.m */; };
+		79C19FEB21F732E1007BC183 /* CENChatSearchBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7421F732E0007BC183 /* CENChatSearchBuilderInterfaceTest.m */; };
+		79C19FEC21F732E1007BC183 /* CENChatBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7521F732E0007BC183 /* CENChatBuilderInterfaceTest.m */; };
+		79C19FEE21F732E1007BC183 /* CENChatBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7521F732E0007BC183 /* CENChatBuilderInterfaceTest.m */; };
+		79C19FEF21F732E1007BC183 /* CENChatEmitBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7621F732E0007BC183 /* CENChatEmitBuilderInterfaceTest.m */; };
+		79C19FF121F732E1007BC183 /* CENChatEmitBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7621F732E0007BC183 /* CENChatEmitBuilderInterfaceTest.m */; };
+		79C19FF221F732E1007BC183 /* CENInterfaceBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7721F732E0007BC183 /* CENInterfaceBuilderTest.m */; };
+		79C19FF421F732E1007BC183 /* CENInterfaceBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7721F732E0007BC183 /* CENInterfaceBuilderTest.m */; };
+		79C19FF521F732E1007BC183 /* CENPluginsBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7921F732E0007BC183 /* CENPluginsBuilderInterfaceTest.m */; };
+		79C19FF721F732E1007BC183 /* CENPluginsBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7921F732E0007BC183 /* CENPluginsBuilderInterfaceTest.m */; };
+		79C19FF821F732E1007BC183 /* CENUserBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7B21F732E0007BC183 /* CENUserBuilderInterfaceTest.m */; };
+		79C19FFA21F732E1007BC183 /* CENUserBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7B21F732E0007BC183 /* CENUserBuilderInterfaceTest.m */; };
+		79C19FFB21F732E1007BC183 /* CENUserConnectBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7C21F732E0007BC183 /* CENUserConnectBuilderInterfaceTest.m */; };
+		79C19FFD21F732E1007BC183 /* CENUserConnectBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7C21F732E0007BC183 /* CENUserConnectBuilderInterfaceTest.m */; };
+		79C19FFE21F732E1007BC183 /* CENEventEmitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7E21F732E1007BC183 /* CENEventEmitterTest.m */; };
+		79C1A00021F732E1007BC183 /* CENEventEmitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7E21F732E1007BC183 /* CENEventEmitterTest.m */; };
+		79C1A00121F732E1007BC183 /* CENChatsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8021F732E1007BC183 /* CENChatsManagerTest.m */; };
+		79C1A00321F732E1007BC183 /* CENChatsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8021F732E1007BC183 /* CENChatsManagerTest.m */; };
+		79C1A00421F732E1007BC183 /* CENTemporaryObjectsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8121F732E1007BC183 /* CENTemporaryObjectsManagerTest.m */; };
+		79C1A00621F732E1007BC183 /* CENTemporaryObjectsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8121F732E1007BC183 /* CENTemporaryObjectsManagerTest.m */; };
+		79C1A00721F732E1007BC183 /* CENUsersManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8221F732E1007BC183 /* CENUsersManagerTest.m */; };
+		79C1A00921F732E1007BC183 /* CENUsersManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8221F732E1007BC183 /* CENUsersManagerTest.m */; };
+		79C1A00A21F732E1007BC183 /* CENPluginsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8321F732E1007BC183 /* CENPluginsManagerTest.m */; };
+		79C1A00C21F732E1007BC183 /* CENPluginsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8321F732E1007BC183 /* CENPluginsManagerTest.m */; };
+		79C1A00D21F732E1007BC183 /* CENEventTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8521F732E1007BC183 /* CENEventTest.m */; };
+		79C1A00F21F732E1007BC183 /* CENEventTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8521F732E1007BC183 /* CENEventTest.m */; };
+		79C1A01021F732E1007BC183 /* CENChatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8621F732E1007BC183 /* CENChatTest.m */; };
+		79C1A01221F732E1007BC183 /* CENChatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8621F732E1007BC183 /* CENChatTest.m */; };
+		79C1A01321F732E1007BC183 /* CENObjectPluginsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8721F732E1007BC183 /* CENObjectPluginsTest.m */; };
+		79C1A01521F732E1007BC183 /* CENObjectPluginsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8721F732E1007BC183 /* CENObjectPluginsTest.m */; };
+		79C1A01621F732E1007BC183 /* CENSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8821F732E1007BC183 /* CENSessionTest.m */; };
+		79C1A01821F732E1007BC183 /* CENSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8821F732E1007BC183 /* CENSessionTest.m */; };
+		79C1A01921F732E1007BC183 /* CEUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8921F732E1007BC183 /* CEUserTest.m */; };
+		79C1A01B21F732E1007BC183 /* CEUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8921F732E1007BC183 /* CEUserTest.m */; };
+		79C1A01C21F732E1007BC183 /* CENSearchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8A21F732E1007BC183 /* CENSearchTest.m */; };
+		79C1A01E21F732E1007BC183 /* CENSearchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8A21F732E1007BC183 /* CENSearchTest.m */; };
+		79C1A01F21F732E1007BC183 /* CENObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8B21F732E1007BC183 /* CENObjectTest.m */; };
+		79C1A02121F732E1007BC183 /* CENObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8B21F732E1007BC183 /* CENObjectTest.m */; };
+		79C1A02221F732E1007BC183 /* CENMeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8C21F732E1007BC183 /* CENMeTest.m */; };
+		79C1A02421F732E1007BC183 /* CENMeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8C21F732E1007BC183 /* CENMeTest.m */; };
+		79C1A02521F732E1007BC183 /* CENConfigurationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8D21F732E1007BC183 /* CENConfigurationTest.m */; };
+		79C1A02721F732E1007BC183 /* CENConfigurationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8D21F732E1007BC183 /* CENConfigurationTest.m */; };
+		79C1A02821F732E1007BC183 /* CENErrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9021F732E1007BC183 /* CENErrorTest.m */; };
+		79C1A02921F732E1007BC183 /* CENErrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9021F732E1007BC183 /* CENErrorTest.m */; };
+		79C1A02A21F732E1007BC183 /* CENErrorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9021F732E1007BC183 /* CENErrorTest.m */; };
+		79C1A02B21F732E1007BC183 /* CENTypingIndicatorPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9321F732E1007BC183 /* CENTypingIndicatorPluginTest.m */; };
+		79C1A02D21F732E1007BC183 /* CENTypingIndicatorPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9321F732E1007BC183 /* CENTypingIndicatorPluginTest.m */; };
+		79C1A02E21F732E1007BC183 /* CENTypingIndicatorExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9421F732E1007BC183 /* CENTypingIndicatorExtensionTest.m */; };
+		79C1A03021F732E1007BC183 /* CENTypingIndicatorExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9421F732E1007BC183 /* CENTypingIndicatorExtensionTest.m */; };
+		79C1A03121F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9521F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m */; };
+		79C1A03321F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9521F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m */; };
+		79C1A03421F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9721F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m */; };
+		79C1A03621F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9721F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m */; };
+		79C1A03721F732E1007BC183 /* CENPushNotificationsPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9821F732E1007BC183 /* CENPushNotificationsPluginTest.m */; };
+		79C1A03921F732E1007BC183 /* CENPushNotificationsPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9821F732E1007BC183 /* CENPushNotificationsPluginTest.m */; };
+		79C1A03A21F732E1007BC183 /* CENPushNotificationsExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9921F732E1007BC183 /* CENPushNotificationsExtensionTest.m */; };
+		79C1A03C21F732E1007BC183 /* CENPushNotificationsExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9921F732E1007BC183 /* CENPushNotificationsExtensionTest.m */; };
+		79C1A03D21F732E1007BC183 /* CENEmojiPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9B21F732E1007BC183 /* CENEmojiPluginTest.m */; };
+		79C1A03F21F732E1007BC183 /* CENEmojiPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9B21F732E1007BC183 /* CENEmojiPluginTest.m */; };
+		79C1A04021F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9C21F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m */; };
+		79C1A04221F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9C21F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m */; };
+		79C1A04321F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9D21F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m */; };
+		79C1A04521F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9D21F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m */; };
+		79C1A04621F732E1007BC183 /* CENOnlineUserSearchPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9F21F732E1007BC183 /* CENOnlineUserSearchPluginTest.m */; };
+		79C1A04821F732E1007BC183 /* CENOnlineUserSearchPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9F21F732E1007BC183 /* CENOnlineUserSearchPluginTest.m */; };
+		79C1A04921F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA021F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m */; };
+		79C1A04B21F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA021F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m */; };
+		79C1A04C21F732E1007BC183 /* CENMuterExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA221F732E1007BC183 /* CENMuterExtensionTest.m */; };
+		79C1A04E21F732E1007BC183 /* CENMuterExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA221F732E1007BC183 /* CENMuterExtensionTest.m */; };
+		79C1A04F21F732E1007BC183 /* CEN14MuterMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA321F732E1007BC183 /* CEN14MuterMiddlewareTest.m */; };
+		79C1A05121F732E1007BC183 /* CEN14MuterMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA321F732E1007BC183 /* CEN14MuterMiddlewareTest.m */; };
+		79C1A05221F732E1007BC183 /* CENMuterPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA421F732E1007BC183 /* CENMuterPluginTest.m */; };
+		79C1A05421F732E1007BC183 /* CENMuterPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA421F732E1007BC183 /* CENMuterPluginTest.m */; };
+		79C1A05521F732E1007BC183 /* CENGravatarExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA621F732E1007BC183 /* CENGravatarExtensionTest.m */; };
+		79C1A05721F732E1007BC183 /* CENGravatarExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA621F732E1007BC183 /* CENGravatarExtensionTest.m */; };
+		79C1A05821F732E1007BC183 /* CENGravatarPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA721F732E1007BC183 /* CENGravatarPluginTest.m */; };
+		79C1A05A21F732E1007BC183 /* CENGravatarPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA721F732E1007BC183 /* CENGravatarPluginTest.m */; };
+		79C1A05B21F732E1007BC183 /* CENUnreadMessagesExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA921F732E1007BC183 /* CENUnreadMessagesExtensionTest.m */; };
+		79C1A05D21F732E1007BC183 /* CENUnreadMessagesExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA921F732E1007BC183 /* CENUnreadMessagesExtensionTest.m */; };
+		79C1A05E21F732E1007BC183 /* CENUnreadMessagesPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAA21F732E1007BC183 /* CENUnreadMessagesPluginTest.m */; };
+		79C1A06021F732E1007BC183 /* CENUnreadMessagesPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAA21F732E1007BC183 /* CENUnreadMessagesPluginTest.m */; };
+		79C1A06121F732E1007BC183 /* CENMarkdownPluginParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAC21F732E1007BC183 /* CENMarkdownPluginParserTest.m */; };
+		79C1A06321F732E1007BC183 /* CENMarkdownPluginParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAC21F732E1007BC183 /* CENMarkdownPluginParserTest.m */; };
+		79C1A06421F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAD21F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m */; };
+		79C1A06621F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAD21F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m */; };
+		79C1A06721F732E1007BC183 /* CENMarkdownPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAE21F732E1007BC183 /* CENMarkdownPluginTest.m */; };
+		79C1A06921F732E1007BC183 /* CENMarkdownPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAE21F732E1007BC183 /* CENMarkdownPluginTest.m */; };
+		79C1A06A21F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB021F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m */; };
+		79C1A06C21F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB021F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m */; };
+		79C1A06D21F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB121F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m */; };
+		79C1A06F21F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB121F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m */; };
+		79C1A07021F732E1007BC183 /* CENRandomUsernameExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB321F732E1007BC183 /* CENRandomUsernameExtensionTest.m */; };
+		79C1A07221F732E1007BC183 /* CENRandomUsernameExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB321F732E1007BC183 /* CENRandomUsernameExtensionTest.m */; };
+		79C1A07321F732E1007BC183 /* CENRandomUsernamePluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB421F732E1007BC183 /* CENRandomUsernamePluginTest.m */; };
+		79C1A07521F732E1007BC183 /* CENRandomUsernamePluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB421F732E1007BC183 /* CENRandomUsernamePluginTest.m */; };
+		79C1A07621F732E1007BC183 /* CEPPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB521F732E1007BC183 /* CEPPluginTest.m */; };
+		79C1A07821F732E1007BC183 /* CEPPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB521F732E1007BC183 /* CEPPluginTest.m */; };
+		79C1A07921F732E1007BC183 /* CEPExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB621F732E1007BC183 /* CEPExtensionTest.m */; };
+		79C1A07B21F732E1007BC183 /* CEPExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB621F732E1007BC183 /* CEPExtensionTest.m */; };
+		79C1A07C21F732E1007BC183 /* CEPMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB721F732E1007BC183 /* CEPMiddlewareTest.m */; };
+		79C1A07E21F732E1007BC183 /* CEPMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB721F732E1007BC183 /* CEPMiddlewareTest.m */; };
+		79C1A07F21F732E1007BC183 /* CENOpenGraphPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB921F732E1007BC183 /* CENOpenGraphPluginTest.m */; };
+		79C1A08121F732E1007BC183 /* CENOpenGraphPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB921F732E1007BC183 /* CENOpenGraphPluginTest.m */; };
+		79C1A08221F732E1007BC183 /* CENOpenGraphMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBA21F732E1007BC183 /* CENOpenGraphMiddlewareTest.m */; };
+		79C1A08421F732E1007BC183 /* CENOpenGraphMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBA21F732E1007BC183 /* CENOpenGraphMiddlewareTest.m */; };
+		79C1A08521F732E1007BC183 /* CENEventStatusExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBC21F732E1007BC183 /* CENEventStatusExtensionTest.m */; };
+		79C1A08721F732E1007BC183 /* CENEventStatusExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBC21F732E1007BC183 /* CENEventStatusExtensionTest.m */; };
+		79C1A08821F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBD21F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m */; };
+		79C1A08A21F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBD21F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m */; };
+		79C1A08B21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBE21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m */; };
+		79C1A08D21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBE21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m */; };
+		79C1A08E21F732E1007BC183 /* CENEventStatusPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBF21F732E1007BC183 /* CENEventStatusPluginTest.m */; };
+		79C1A09021F732E1007BC183 /* CENEventStatusPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBF21F732E1007BC183 /* CENEventStatusPluginTest.m */; };
+		79C1A09121F732E1007BC183 /* CENSearchFilterMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC121F732E1007BC183 /* CENSearchFilterMiddlewareTest.m */; };
+		79C1A09321F732E1007BC183 /* CENSearchFilterMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC121F732E1007BC183 /* CENSearchFilterMiddlewareTest.m */; };
+		79C1A09421F732E1007BC183 /* CENSearchFilterPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC221F732E1007BC183 /* CENSearchFilterPluginTest.m */; };
+		79C1A09621F732E1007BC183 /* CENSearchFilterPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC221F732E1007BC183 /* CENSearchFilterPluginTest.m */; };
+		79C1A09721F732E1007BC183 /* CENUploadcareFileInformationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC421F732E1007BC183 /* CENUploadcareFileInformationTest.m */; };
+		79C1A09921F732E1007BC183 /* CENUploadcareFileInformationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC421F732E1007BC183 /* CENUploadcareFileInformationTest.m */; };
+		79C1A09A21F732E1007BC183 /* CENUploadcarePluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC521F732E1007BC183 /* CENUploadcarePluginTest.m */; };
+		79C1A09C21F732E1007BC183 /* CENUploadcarePluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC521F732E1007BC183 /* CENUploadcarePluginTest.m */; };
+		79C1A09D21F732E1007BC183 /* CENUploadcareMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC621F732E1007BC183 /* CENUploadcareMiddlewareTest.m */; };
+		79C1A09F21F732E1007BC183 /* CENUploadcareMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC621F732E1007BC183 /* CENUploadcareMiddlewareTest.m */; };
+		79C1A0A021F732E1007BC183 /* CENUploadcareExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC721F732E1007BC183 /* CENUploadcareExtensionTest.m */; };
+		79C1A0A221F732E1007BC183 /* CENUploadcareExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC721F732E1007BC183 /* CENUploadcareExtensionTest.m */; };
+		79C1A0B821F73321007BC183 /* CEN8TypingIndicatorPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A421F73320007BC183 /* CEN8TypingIndicatorPluginIntegrationTest.m */; };
+		79C1A0BA21F73321007BC183 /* CEN9OnlineSearchPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A521F73320007BC183 /* CEN9OnlineSearchPluginIntegrationTest.m */; };
+		79C1A0BC21F73321007BC183 /* CEN10EmojiPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A621F73320007BC183 /* CEN10EmojiPluginIntegrationTest.m */; };
+		79C1A0BE21F73321007BC183 /* CEN12RandomUsernamePluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A721F73320007BC183 /* CEN12RandomUsernamePluginIntegrationTest.m */; };
+		79C1A0C021F73321007BC183 /* CEN11UnreadMessagesPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A821F73320007BC183 /* CEN11UnreadMessagesPluginIntegrationTest.m */; };
+		79C1A0C221F73321007BC183 /* CEN13EventStatusPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0A921F73320007BC183 /* CEN13EventStatusPluginIntegrationTest.m */; };
+		79C1A0C421F73321007BC183 /* CEN14MuterPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AA21F73320007BC183 /* CEN14MuterPluginIntegrationTest.m */; };
+		79C1A0C621F73321007BC183 /* CEN15PushNotificationsPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AB21F73320007BC183 /* CEN15PushNotificationsPluginIntegrationTest.m */; };
+		79C1A0C821F73321007BC183 /* CEN16UploadcarePluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AC21F73320007BC183 /* CEN16UploadcarePluginIntegrationTest.m */; };
+		79C1A0CA21F73321007BC183 /* CEN17MarkdownPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AD21F73320007BC183 /* CEN17MarkdownPluginIntegrationTest.m */; };
+		79C1A0CC21F73321007BC183 /* CEN18GravatarPluginIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AE21F73320007BC183 /* CEN18GravatarPluginIntegrationTest.m */; };
+		79C1A0CE21F73321007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AF21F73320007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m */; };
+		79C1A0D021F73321007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B021F73321007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m */; };
+		79C1A0D121F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B121F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m */; };
+		79C1A0D221F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B121F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m */; };
+		79C1A0D421F73321007BC183 /* CEN2ChatEngineUserStateIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B221F73321007BC183 /* CEN2ChatEngineUserStateIntegrationTest.m */; };
+		79C1A0D621F73321007BC183 /* CEN6ChatEngineChatMetaIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B421F73321007BC183 /* CEN6ChatEngineChatMetaIntegrationTest.m */; };
+		79C1A0D821F73321007BC183 /* CEN7ChatEngineChatInviteIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B521F73321007BC183 /* CEN7ChatEngineChatInviteIntegrationTest.m */; };
+		79C1A0DA21F73321007BC183 /* CEN5ChatEngineChatIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B621F73321007BC183 /* CEN5ChatEngineChatIntegrationTest.m */; };
+		79C1A0DD21F733CF007BC183 /* CENTestEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0DC21F733CF007BC183 /* CENTestEventEmitter.m */; };
+		79C1A0DE21F733CF007BC183 /* CENTestEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0DC21F733CF007BC183 /* CENTestEventEmitter.m */; };
+		79C1A0DF21F733CF007BC183 /* CENTestEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0DC21F733CF007BC183 /* CENTestEventEmitter.m */; };
+		79C1A0E021F733CF007BC183 /* CENTestEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0DC21F733CF007BC183 /* CENTestEventEmitter.m */; };
+		79C1A0E121F733CF007BC183 /* CENTestEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0DC21F733CF007BC183 /* CENTestEventEmitter.m */; };
+		79C1A0E521F7340F007BC183 /* NSInvocation+CENTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0E321F7340F007BC183 /* NSInvocation+CENTest.m */; };
+		79C1A0E621F7340F007BC183 /* NSInvocation+CENTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0E321F7340F007BC183 /* NSInvocation+CENTest.m */; };
+		79C1A0E721F7340F007BC183 /* NSInvocation+CENTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0E321F7340F007BC183 /* NSInvocation+CENTest.m */; };
+		79C1A0E821F7340F007BC183 /* NSInvocation+CENTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0E321F7340F007BC183 /* NSInvocation+CENTest.m */; };
+		79C1A0E921F7340F007BC183 /* NSInvocation+CENTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0E321F7340F007BC183 /* NSInvocation+CENTest.m */; };
+		79C1A0EA21F7392F007BC183 /* CENConfigurationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8D21F732E1007BC183 /* CENConfigurationTest.m */; };
+		79C1A0EB21F73962007BC183 /* CENMeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8C21F732E1007BC183 /* CENMeTest.m */; };
+		79C1A0EC21F884A0007BC183 /* CENObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8B21F732E1007BC183 /* CENObjectTest.m */; };
+		79C1A0ED21F884CB007BC183 /* CENSearchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8A21F732E1007BC183 /* CENSearchTest.m */; };
+		79C1A0EE21F89150007BC183 /* CEUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8921F732E1007BC183 /* CEUserTest.m */; };
+		79C1A0EF21F89459007BC183 /* CENSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8821F732E1007BC183 /* CENSessionTest.m */; };
+		79C1A0F021F89476007BC183 /* CENObjectPluginsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8721F732E1007BC183 /* CENObjectPluginsTest.m */; };
+		79C1A0F121F89497007BC183 /* CENChatTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8621F732E1007BC183 /* CENChatTest.m */; };
+		79C1A0F221F89B61007BC183 /* CENEventTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8521F732E1007BC183 /* CENEventTest.m */; };
+		79C1A0F321F89BA7007BC183 /* CENPluginsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8321F732E1007BC183 /* CENPluginsManagerTest.m */; };
+		79C1A0F421F89CF7007BC183 /* CENUsersManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8221F732E1007BC183 /* CENUsersManagerTest.m */; };
+		79C1A0F521F89D2D007BC183 /* CENTemporaryObjectsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8121F732E1007BC183 /* CENTemporaryObjectsManagerTest.m */; };
+		79C1A0F621F8A0A9007BC183 /* CENChatsManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F8021F732E1007BC183 /* CENChatsManagerTest.m */; };
+		79C1A0F721F8A0D2007BC183 /* CENEventEmitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7E21F732E1007BC183 /* CENEventEmitterTest.m */; };
+		79C1A0F821F8A0EB007BC183 /* CENUserConnectBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7C21F732E0007BC183 /* CENUserConnectBuilderInterfaceTest.m */; };
+		79C1A0F921F8A1A0007BC183 /* CENUserBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7B21F732E0007BC183 /* CENUserBuilderInterfaceTest.m */; };
+		79C1A0FA21F8A1B9007BC183 /* CENPluginsBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7921F732E0007BC183 /* CENPluginsBuilderInterfaceTest.m */; };
+		79C1A0FB21F8A1CF007BC183 /* CENInterfaceBuilderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7721F732E0007BC183 /* CENInterfaceBuilderTest.m */; };
+		79C1A0FC21F8A1F1007BC183 /* CENChatEmitBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7621F732E0007BC183 /* CENChatEmitBuilderInterfaceTest.m */; };
+		79C1A0FD21F8A204007BC183 /* CENChatBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7521F732E0007BC183 /* CENChatBuilderInterfaceTest.m */; };
+		79C1A0FE21F8A2FB007BC183 /* CENChatSearchBuilderInterfaceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7421F732E0007BC183 /* CENChatSearchBuilderInterfaceTest.m */; };
+		79C1A0FF21F8A31C007BC183 /* CENChatEnginePubNubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7121F732E0007BC183 /* CENChatEnginePubNubTest.m */; };
+		79C1A10021F8A354007BC183 /* CENChatEngineSessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F7021F732E0007BC183 /* CENChatEngineSessionTest.m */; };
+		79C1A10121F8A396007BC183 /* CENChatEngineChatsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6F21F732E0007BC183 /* CENChatEngineChatsTest.m */; };
+		79C1A10221F90358007BC183 /* CENChatEnginePublishTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6E21F732E0007BC183 /* CENChatEnginePublishTest.m */; };
+		79C1A10321F903BB007BC183 /* CENChatEngineSearchTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6D21F732E0007BC183 /* CENChatEngineSearchTest.m */; };
+		79C1A10421F908B9007BC183 /* CENChatEnginePluginsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6C21F732E0007BC183 /* CENChatEnginePluginsTest.m */; };
+		79C1A10521F90A86007BC183 /* CENChatEngineConnectionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6B21F732E0007BC183 /* CENChatEngineConnectionTest.m */; };
+		79C1A10621F90EE9007BC183 /* CENChatEngineAuthorizationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6A21F732E0007BC183 /* CENChatEngineAuthorizationTest.m */; };
+		79C1A10721F91267007BC183 /* CENChatEngineTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6921F732E0007BC183 /* CENChatEngineTest.m */; };
+		79C1A10821F91286007BC183 /* CENChatEngineUserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6821F732E0007BC183 /* CENChatEngineUserTest.m */; };
+		79C1A10921F912BE007BC183 /* CENChatEngineEventEmitterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F6721F732E0007BC183 /* CENChatEngineEventEmitterTest.m */; };
+		79C1A10A21F912F9007BC183 /* CENUploadcareFileInformationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC421F732E1007BC183 /* CENUploadcareFileInformationTest.m */; };
+		79C1A10B21F91301007BC183 /* CENUploadcarePluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC521F732E1007BC183 /* CENUploadcarePluginTest.m */; };
+		79C1A10C21F91305007BC183 /* CENUploadcareMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC621F732E1007BC183 /* CENUploadcareMiddlewareTest.m */; };
+		79C1A10D21F91308007BC183 /* CENUploadcareExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC721F732E1007BC183 /* CENUploadcareExtensionTest.m */; };
+		79C1A10E21F9134E007BC183 /* CENSearchFilterMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC121F732E1007BC183 /* CENSearchFilterMiddlewareTest.m */; };
+		79C1A10F21F91351007BC183 /* CENSearchFilterPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FC221F732E1007BC183 /* CENSearchFilterPluginTest.m */; };
+		79C1A11021F91373007BC183 /* CENEventStatusExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBC21F732E1007BC183 /* CENEventStatusExtensionTest.m */; };
+		79C1A11121F91375007BC183 /* CEN13EventStatusOnMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBD21F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m */; };
+		79C1A11221F91378007BC183 /* CEN13EventStatusEmitMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBE21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m */; };
+		79C1A11321F9137B007BC183 /* CENEventStatusPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBF21F732E1007BC183 /* CENEventStatusPluginTest.m */; };
+		79C1A11421F913C1007BC183 /* CENOpenGraphPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB921F732E1007BC183 /* CENOpenGraphPluginTest.m */; };
+		79C1A11521F913C4007BC183 /* CENOpenGraphMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FBA21F732E1007BC183 /* CENOpenGraphMiddlewareTest.m */; };
+		79C1A11621F91405007BC183 /* CEPMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB721F732E1007BC183 /* CEPMiddlewareTest.m */; };
+		79C1A11721F91407007BC183 /* CEPPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB521F732E1007BC183 /* CEPPluginTest.m */; };
+		79C1A11821F9140A007BC183 /* CEPExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB621F732E1007BC183 /* CEPExtensionTest.m */; };
+		79C1A11921F9143C007BC183 /* CENRandomUsernamePluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB421F732E1007BC183 /* CENRandomUsernamePluginTest.m */; };
+		79C1A11A21F91440007BC183 /* CENRandomUsernameExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB321F732E1007BC183 /* CENRandomUsernameExtensionTest.m */; };
+		79C1A11B21F91505007BC183 /* CENStateRestoreAugmentationPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB121F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m */; };
+		79C1A11C21F91508007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FB021F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m */; };
+		79C1A11D21F9155F007BC183 /* CENMarkdownPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAE21F732E1007BC183 /* CENMarkdownPluginTest.m */; };
+		79C1A11E21F91562007BC183 /* CEN17MarkdownMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAD21F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m */; };
+		79C1A11F21F91564007BC183 /* CENMarkdownPluginParserTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAC21F732E1007BC183 /* CENMarkdownPluginParserTest.m */; };
+		79C1A12021F9162F007BC183 /* CENUnreadMessagesPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FAA21F732E1007BC183 /* CENUnreadMessagesPluginTest.m */; };
+		79C1A12121F91631007BC183 /* CENUnreadMessagesExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA921F732E1007BC183 /* CENUnreadMessagesExtensionTest.m */; };
+		79C1A12221F91659007BC183 /* CENGravatarPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA721F732E1007BC183 /* CENGravatarPluginTest.m */; };
+		79C1A12321F9165C007BC183 /* CENGravatarExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA621F732E1007BC183 /* CENGravatarExtensionTest.m */; };
+		79C1A12421F91A18007BC183 /* CENMuterPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA421F732E1007BC183 /* CENMuterPluginTest.m */; };
+		79C1A12521F91A1A007BC183 /* CEN14MuterMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA321F732E1007BC183 /* CEN14MuterMiddlewareTest.m */; };
+		79C1A12621F91A1E007BC183 /* CENMuterExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA221F732E1007BC183 /* CENMuterExtensionTest.m */; };
+		79C1A12721F91E9E007BC183 /* CENOnlineUserSearchExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19FA021F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m */; };
+		79C1A12821F91EA2007BC183 /* CENOnlineUserSearchPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9F21F732E1007BC183 /* CENOnlineUserSearchPluginTest.m */; };
+		79C1A12921F91EF4007BC183 /* CENEmojiPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9B21F732E1007BC183 /* CENEmojiPluginTest.m */; };
+		79C1A12A21F91EF8007BC183 /* CEN10EmojiOnMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9C21F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m */; };
+		79C1A12B21F91EFB007BC183 /* CEN10EmojiEmitMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9D21F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m */; };
+		79C1A12C21F91F5A007BC183 /* CENPushNotificationsExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9921F732E1007BC183 /* CENPushNotificationsExtensionTest.m */; };
+		79C1A12D21F91F5D007BC183 /* CENPushNotificationsPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9821F732E1007BC183 /* CENPushNotificationsPluginTest.m */; };
+		79C1A12E21F91F60007BC183 /* CENPushNotificationsMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9721F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m */; };
+		79C1A12F21F91FBA007BC183 /* CEN8TypingIndicatorMiddlewareTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9521F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m */; };
+		79C1A13021F91FBF007BC183 /* CENTypingIndicatorExtensionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9421F732E1007BC183 /* CENTypingIndicatorExtensionTest.m */; };
+		79C1A13121F91FC3007BC183 /* CENTypingIndicatorPluginTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C19F9321F732E1007BC183 /* CENTypingIndicatorPluginTest.m */; };
+		79C1A13221FB236F007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0AF21F73320007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m */; };
+		79C1A13321FC63DE007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C1A0B021F73321007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m */; };
+		79D7CF46210E8BED00F72AF0 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 79D7CF45210E8BEC00F72AF0 /* Fixtures */; };
+		79D7CF47210E8BED00F72AF0 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 79D7CF45210E8BEC00F72AF0 /* Fixtures */; };
+		79D7CF48210EF25A00F72AF0 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 79D7CF45210E8BEC00F72AF0 /* Fixtures */; };
+		8C4E8E6BB3904E3CA181B4ED /* Pods_Tests__Test__Code_Coverage__Unit_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBABD77CFE54106931280E60 /* Pods_Tests__Test__Code_Coverage__Unit_.framework */; };
+		92C4CF197AD0BF7549298B1B /* Pods_Tests__Test__Code_Coverage__Integration_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA901AE0BA3D8B6E2EAFD3DB /* Pods_Tests__Test__Code_Coverage__Integration_.framework */; };
+		95BC54C5F534B00AC67FD6D8 /* Pods_Tests__Test__iOS_Integration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B9D9A96AF36E742AB3028E /* Pods_Tests__Test__iOS_Integration.framework */; };
+		E59C31689A4BC95F15F5A1E1 /* Pods_Tests__Test__Code_Coverage__Full_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C7A804F01B8CF2701B6932 /* Pods_Tests__Test__Code_Coverage__Full_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79A1D2B12073A99600D97E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797ECFCE2057C4D5007E15F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797ECFD52057C4D5007E15F5;
+			remoteInfo = "iOS Host Application";
+		};
+		79C19F1321F731A4007BC183 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797ECFCE2057C4D5007E15F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797ECFD52057C4D5007E15F5;
+			remoteInfo = "iOS Host Application";
+		};
+		79E8344520851FE800CE089B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 797ECFCE2057C4D5007E15F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 797ECFD52057C4D5007E15F5;
+			remoteInfo = "iOS Host Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A60C7BB4B215077CBD9A42 /* Pods-Tests-[Test] iOS Integration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] iOS Integration.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] iOS Integration/Pods-Tests-[Test] iOS Integration.debug.xcconfig"; sourceTree = "<group>"; };
+		18C9446FB5F9E3925C4FE487 /* Pods_Tests__Test__iOS_Unit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests__Test__iOS_Unit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DE54F81118B3E723B8465E7 /* Pods-Tests-[Test] Code Coverage (Full).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] Code Coverage (Full).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] Code Coverage (Full)/Pods-Tests-[Test] Code Coverage (Full).debug.xcconfig"; sourceTree = "<group>"; };
+		4DEDD1102EA6C84B0C76246A /* Pods-Tests-[Test] iOS Unit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] iOS Unit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] iOS Unit/Pods-Tests-[Test] iOS Unit.debug.xcconfig"; sourceTree = "<group>"; };
+		797ECFD62057C4D5007E15F5 /* iOS Host Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Host Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797ED0012057C6D2007E15F5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		797ED0022057C6D2007E15F5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		797ED0032057C6D2007E15F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		797ED0042057C6D2007E15F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		797ED0072057C6D2007E15F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		797ED00A2057C6D2007E15F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797ED00C2057C6D2007E15F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		797ED00F2057C6D2007E15F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		797ED0112057C6D2007E15F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797ED0202057C96E007E15F5 /* [Test] iOS Integration.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[Test] iOS Integration.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		797ED0242057C96E007E15F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797ED02B205846F1007E15F5 /* test-keysset.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test-keysset.plist"; sourceTree = "<group>"; };
+		797ED03020588379007E15F5 /* CENTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CENTestCase.h; sourceTree = "<group>"; };
+		797ED03120588379007E15F5 /* CENTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CENTestCase.m; sourceTree = "<group>"; };
+		797ED05720595E50007E15F5 /* CEDummyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDummyExtension.h; sourceTree = "<group>"; };
+		797ED05820595E50007E15F5 /* CEDummyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDummyExtension.m; sourceTree = "<group>"; };
+		797ED05920595E50007E15F5 /* CEDummyPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDummyPlugin.h; sourceTree = "<group>"; };
+		797ED05A20595E50007E15F5 /* CEDummyPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDummyPlugin.m; sourceTree = "<group>"; };
+		797ED06020596848007E15F5 /* CEDummyOnMiddleware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDummyOnMiddleware.h; sourceTree = "<group>"; };
+		797ED06120596848007E15F5 /* CEDummyEmitMiddleware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEDummyEmitMiddleware.h; sourceTree = "<group>"; };
+		797ED06220596848007E15F5 /* CEDummyOnMiddleware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDummyOnMiddleware.m; sourceTree = "<group>"; };
+		797ED06320596848007E15F5 /* CEDummyEmitMiddleware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEDummyEmitMiddleware.m; sourceTree = "<group>"; };
+		79A1D2C72073A99600D97E64 /* [Test] Code Coverage (Full).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[Test] Code Coverage (Full).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A825E9206CC4B700648EE5 /* [Test] iOS Unit.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[Test] iOS Unit.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A825ED206CC4B700648EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79A82603206CC89C00648EE5 /* [Test] Code Coverage (Unit).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[Test] Code Coverage (Unit).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C19F6221F731A4007BC183 /* [Test] Code Coverage (Integration).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "[Test] Code Coverage (Integration).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C19F6521F731F3007BC183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79C19F6721F732E0007BC183 /* CENChatEngineEventEmitterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineEventEmitterTest.m; sourceTree = "<group>"; };
+		79C19F6821F732E0007BC183 /* CENChatEngineUserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineUserTest.m; sourceTree = "<group>"; };
+		79C19F6921F732E0007BC183 /* CENChatEngineTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineTest.m; sourceTree = "<group>"; };
+		79C19F6A21F732E0007BC183 /* CENChatEngineAuthorizationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineAuthorizationTest.m; sourceTree = "<group>"; };
+		79C19F6B21F732E0007BC183 /* CENChatEngineConnectionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineConnectionTest.m; sourceTree = "<group>"; };
+		79C19F6C21F732E0007BC183 /* CENChatEnginePluginsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEnginePluginsTest.m; sourceTree = "<group>"; };
+		79C19F6D21F732E0007BC183 /* CENChatEngineSearchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineSearchTest.m; sourceTree = "<group>"; };
+		79C19F6E21F732E0007BC183 /* CENChatEnginePublishTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEnginePublishTest.m; sourceTree = "<group>"; };
+		79C19F6F21F732E0007BC183 /* CENChatEngineChatsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineChatsTest.m; sourceTree = "<group>"; };
+		79C19F7021F732E0007BC183 /* CENChatEngineSessionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEngineSessionTest.m; sourceTree = "<group>"; };
+		79C19F7121F732E0007BC183 /* CENChatEnginePubNubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEnginePubNubTest.m; sourceTree = "<group>"; };
+		79C19F7421F732E0007BC183 /* CENChatSearchBuilderInterfaceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatSearchBuilderInterfaceTest.m; sourceTree = "<group>"; };
+		79C19F7521F732E0007BC183 /* CENChatBuilderInterfaceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatBuilderInterfaceTest.m; sourceTree = "<group>"; };
+		79C19F7621F732E0007BC183 /* CENChatEmitBuilderInterfaceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatEmitBuilderInterfaceTest.m; sourceTree = "<group>"; };
+		79C19F7721F732E0007BC183 /* CENInterfaceBuilderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENInterfaceBuilderTest.m; sourceTree = "<group>"; };
+		79C19F7921F732E0007BC183 /* CENPluginsBuilderInterfaceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENPluginsBuilderInterfaceTest.m; sourceTree = "<group>"; };
+		79C19F7B21F732E0007BC183 /* CENUserBuilderInterfaceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUserBuilderInterfaceTest.m; sourceTree = "<group>"; };
+		79C19F7C21F732E0007BC183 /* CENUserConnectBuilderInterfaceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUserConnectBuilderInterfaceTest.m; sourceTree = "<group>"; };
+		79C19F7E21F732E1007BC183 /* CENEventEmitterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENEventEmitterTest.m; sourceTree = "<group>"; };
+		79C19F8021F732E1007BC183 /* CENChatsManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatsManagerTest.m; sourceTree = "<group>"; };
+		79C19F8121F732E1007BC183 /* CENTemporaryObjectsManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENTemporaryObjectsManagerTest.m; sourceTree = "<group>"; };
+		79C19F8221F732E1007BC183 /* CENUsersManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUsersManagerTest.m; sourceTree = "<group>"; };
+		79C19F8321F732E1007BC183 /* CENPluginsManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENPluginsManagerTest.m; sourceTree = "<group>"; };
+		79C19F8521F732E1007BC183 /* CENEventTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENEventTest.m; sourceTree = "<group>"; };
+		79C19F8621F732E1007BC183 /* CENChatTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENChatTest.m; sourceTree = "<group>"; };
+		79C19F8721F732E1007BC183 /* CENObjectPluginsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENObjectPluginsTest.m; sourceTree = "<group>"; };
+		79C19F8821F732E1007BC183 /* CENSessionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENSessionTest.m; sourceTree = "<group>"; };
+		79C19F8921F732E1007BC183 /* CEUserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEUserTest.m; sourceTree = "<group>"; };
+		79C19F8A21F732E1007BC183 /* CENSearchTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENSearchTest.m; sourceTree = "<group>"; };
+		79C19F8B21F732E1007BC183 /* CENObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENObjectTest.m; sourceTree = "<group>"; };
+		79C19F8C21F732E1007BC183 /* CENMeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENMeTest.m; sourceTree = "<group>"; };
+		79C19F8D21F732E1007BC183 /* CENConfigurationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENConfigurationTest.m; sourceTree = "<group>"; };
+		79C19F9021F732E1007BC183 /* CENErrorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENErrorTest.m; sourceTree = "<group>"; };
+		79C19F9321F732E1007BC183 /* CENTypingIndicatorPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENTypingIndicatorPluginTest.m; sourceTree = "<group>"; };
+		79C19F9421F732E1007BC183 /* CENTypingIndicatorExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENTypingIndicatorExtensionTest.m; sourceTree = "<group>"; };
+		79C19F9521F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN8TypingIndicatorMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19F9721F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENPushNotificationsMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19F9821F732E1007BC183 /* CENPushNotificationsPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENPushNotificationsPluginTest.m; sourceTree = "<group>"; };
+		79C19F9921F732E1007BC183 /* CENPushNotificationsExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENPushNotificationsExtensionTest.m; sourceTree = "<group>"; };
+		79C19F9B21F732E1007BC183 /* CENEmojiPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENEmojiPluginTest.m; sourceTree = "<group>"; };
+		79C19F9C21F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN10EmojiOnMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19F9D21F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN10EmojiEmitMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19F9F21F732E1007BC183 /* CENOnlineUserSearchPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENOnlineUserSearchPluginTest.m; sourceTree = "<group>"; };
+		79C19FA021F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENOnlineUserSearchExtensionTest.m; sourceTree = "<group>"; };
+		79C19FA221F732E1007BC183 /* CENMuterExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENMuterExtensionTest.m; sourceTree = "<group>"; };
+		79C19FA321F732E1007BC183 /* CEN14MuterMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN14MuterMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FA421F732E1007BC183 /* CENMuterPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENMuterPluginTest.m; sourceTree = "<group>"; };
+		79C19FA621F732E1007BC183 /* CENGravatarExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENGravatarExtensionTest.m; sourceTree = "<group>"; };
+		79C19FA721F732E1007BC183 /* CENGravatarPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENGravatarPluginTest.m; sourceTree = "<group>"; };
+		79C19FA921F732E1007BC183 /* CENUnreadMessagesExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUnreadMessagesExtensionTest.m; sourceTree = "<group>"; };
+		79C19FAA21F732E1007BC183 /* CENUnreadMessagesPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUnreadMessagesPluginTest.m; sourceTree = "<group>"; };
+		79C19FAC21F732E1007BC183 /* CENMarkdownPluginParserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENMarkdownPluginParserTest.m; sourceTree = "<group>"; };
+		79C19FAD21F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN17MarkdownMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FAE21F732E1007BC183 /* CENMarkdownPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENMarkdownPluginTest.m; sourceTree = "<group>"; };
+		79C19FB021F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENStateRestoreAugmentationMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FB121F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENStateRestoreAugmentationPluginTest.m; sourceTree = "<group>"; };
+		79C19FB321F732E1007BC183 /* CENRandomUsernameExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENRandomUsernameExtensionTest.m; sourceTree = "<group>"; };
+		79C19FB421F732E1007BC183 /* CENRandomUsernamePluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENRandomUsernamePluginTest.m; sourceTree = "<group>"; };
+		79C19FB521F732E1007BC183 /* CEPPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEPPluginTest.m; sourceTree = "<group>"; };
+		79C19FB621F732E1007BC183 /* CEPExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEPExtensionTest.m; sourceTree = "<group>"; };
+		79C19FB721F732E1007BC183 /* CEPMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEPMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FB921F732E1007BC183 /* CENOpenGraphPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENOpenGraphPluginTest.m; sourceTree = "<group>"; };
+		79C19FBA21F732E1007BC183 /* CENOpenGraphMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENOpenGraphMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FBC21F732E1007BC183 /* CENEventStatusExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENEventStatusExtensionTest.m; sourceTree = "<group>"; };
+		79C19FBD21F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN13EventStatusOnMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FBE21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN13EventStatusEmitMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FBF21F732E1007BC183 /* CENEventStatusPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENEventStatusPluginTest.m; sourceTree = "<group>"; };
+		79C19FC121F732E1007BC183 /* CENSearchFilterMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENSearchFilterMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FC221F732E1007BC183 /* CENSearchFilterPluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENSearchFilterPluginTest.m; sourceTree = "<group>"; };
+		79C19FC421F732E1007BC183 /* CENUploadcareFileInformationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUploadcareFileInformationTest.m; sourceTree = "<group>"; };
+		79C19FC521F732E1007BC183 /* CENUploadcarePluginTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUploadcarePluginTest.m; sourceTree = "<group>"; };
+		79C19FC621F732E1007BC183 /* CENUploadcareMiddlewareTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUploadcareMiddlewareTest.m; sourceTree = "<group>"; };
+		79C19FC721F732E1007BC183 /* CENUploadcareExtensionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENUploadcareExtensionTest.m; sourceTree = "<group>"; };
+		79C1A0A421F73320007BC183 /* CEN8TypingIndicatorPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN8TypingIndicatorPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0A521F73320007BC183 /* CEN9OnlineSearchPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN9OnlineSearchPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0A621F73320007BC183 /* CEN10EmojiPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN10EmojiPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0A721F73320007BC183 /* CEN12RandomUsernamePluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN12RandomUsernamePluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0A821F73320007BC183 /* CEN11UnreadMessagesPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN11UnreadMessagesPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0A921F73320007BC183 /* CEN13EventStatusPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN13EventStatusPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0AA21F73320007BC183 /* CEN14MuterPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN14MuterPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0AB21F73320007BC183 /* CEN15PushNotificationsPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN15PushNotificationsPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0AC21F73320007BC183 /* CEN16UploadcarePluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN16UploadcarePluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0AD21F73320007BC183 /* CEN17MarkdownPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN17MarkdownPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0AE21F73320007BC183 /* CEN18GravatarPluginIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN18GravatarPluginIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0AF21F73320007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN4ChatEngineHistoryIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0B021F73321007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN3ChatEngineRemoteChatsListIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0B121F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN1ChatEngineConnectionIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0B221F73321007BC183 /* CEN2ChatEngineUserStateIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN2ChatEngineUserStateIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0B421F73321007BC183 /* CEN6ChatEngineChatMetaIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN6ChatEngineChatMetaIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0B521F73321007BC183 /* CEN7ChatEngineChatInviteIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN7ChatEngineChatInviteIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0B621F73321007BC183 /* CEN5ChatEngineChatIntegrationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEN5ChatEngineChatIntegrationTest.m; sourceTree = "<group>"; };
+		79C1A0DB21F733CF007BC183 /* CENTestEventEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CENTestEventEmitter.h; sourceTree = "<group>"; };
+		79C1A0DC21F733CF007BC183 /* CENTestEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CENTestEventEmitter.m; sourceTree = "<group>"; };
+		79C1A0E321F7340F007BC183 /* NSInvocation+CENTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+CENTest.m"; sourceTree = "<group>"; };
+		79C1A0E421F7340F007BC183 /* NSInvocation+CENTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+CENTest.h"; sourceTree = "<group>"; };
+		79D3E8422087742F0051D3A4 /* buildkeysset.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = buildkeysset.sh; sourceTree = "<group>"; };
+		79D7CF45210E8BEC00F72AF0 /* Fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fixtures; sourceTree = "<group>"; };
+		79E834422085113C00CE089B /* CEChatEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CEChatEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E8347820876B7900CE089B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E8347A20876B7900CE089B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B9D9A96AF36E742AB3028E /* Pods_Tests__Test__iOS_Integration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests__Test__iOS_Integration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D3F85A48C705C5C8FDE1192 /* Pods-Tests-[Test] iOS Unit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] iOS Unit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] iOS Unit/Pods-Tests-[Test] iOS Unit.release.xcconfig"; sourceTree = "<group>"; };
+		90F402CCAA4F35C5D46D0903 /* Pods-Tests-[Test] Code Coverage (Integration).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] Code Coverage (Integration).release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] Code Coverage (Integration)/Pods-Tests-[Test] Code Coverage (Integration).release.xcconfig"; sourceTree = "<group>"; };
+		9168DB53D756E071C5DA55B6 /* Pods-Tests-[Test] Code Coverage (Unit).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] Code Coverage (Unit).release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] Code Coverage (Unit)/Pods-Tests-[Test] Code Coverage (Unit).release.xcconfig"; sourceTree = "<group>"; };
+		93C7A804F01B8CF2701B6932 /* Pods_Tests__Test__Code_Coverage__Full_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests__Test__Code_Coverage__Full_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B340F1D0FBCC390B059DF3 /* Pods-Tests-[Test] iOS Integration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] iOS Integration.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] iOS Integration/Pods-Tests-[Test] iOS Integration.release.xcconfig"; sourceTree = "<group>"; };
+		C80885ED5941D5A82BA326E9 /* Pods-Tests-[Test] Code Coverage (Unit).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] Code Coverage (Unit).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] Code Coverage (Unit)/Pods-Tests-[Test] Code Coverage (Unit).debug.xcconfig"; sourceTree = "<group>"; };
+		DA901AE0BA3D8B6E2EAFD3DB /* Pods_Tests__Test__Code_Coverage__Integration_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests__Test__Code_Coverage__Integration_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBABD77CFE54106931280E60 /* Pods_Tests__Test__Code_Coverage__Unit_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests__Test__Code_Coverage__Unit_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5A95BEE6B82A57F02A8AF9 /* Pods-Tests-[Test] Code Coverage (Integration).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] Code Coverage (Integration).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] Code Coverage (Integration)/Pods-Tests-[Test] Code Coverage (Integration).debug.xcconfig"; sourceTree = "<group>"; };
+		FF7EBA18A4C21AB766C64C2F /* Pods-Tests-[Test] Code Coverage (Full).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-[Test] Code Coverage (Full).release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-[Test] Code Coverage (Full)/Pods-Tests-[Test] Code Coverage (Full).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		797ECFD32057C4D5007E15F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797ED01D2057C96E007E15F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BC54C5F534B00AC67FD6D8 /* Pods_Tests__Test__iOS_Integration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1D2BF2073A99600D97E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F45F99E847C75E33219F81 /* Pods_Tests__Test__Code_Coverage__Full_.framework in Frameworks */,
+				E59C31689A4BC95F15F5A1E1 /* Pods_Tests__Test__Code_Coverage__Full_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A825E6206CC4B700648EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21768182E30F92E4026168C7 /* Pods_Tests__Test__iOS_Unit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A82600206CC89C00648EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4E8E6BB3904E3CA181B4ED /* Pods_Tests__Test__Code_Coverage__Unit_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C19F5921F731A4007BC183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C4CF197AD0BF7549298B1B /* Pods_Tests__Test__Code_Coverage__Integration_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		724B5F25CD546F41EDF88EFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C80885ED5941D5A82BA326E9 /* Pods-Tests-[Test] Code Coverage (Unit).debug.xcconfig */,
+				9168DB53D756E071C5DA55B6 /* Pods-Tests-[Test] Code Coverage (Unit).release.xcconfig */,
+				18A60C7BB4B215077CBD9A42 /* Pods-Tests-[Test] iOS Integration.debug.xcconfig */,
+				A1B340F1D0FBCC390B059DF3 /* Pods-Tests-[Test] iOS Integration.release.xcconfig */,
+				4DEDD1102EA6C84B0C76246A /* Pods-Tests-[Test] iOS Unit.debug.xcconfig */,
+				8D3F85A48C705C5C8FDE1192 /* Pods-Tests-[Test] iOS Unit.release.xcconfig */,
+				2DE54F81118B3E723B8465E7 /* Pods-Tests-[Test] Code Coverage (Full).debug.xcconfig */,
+				FF7EBA18A4C21AB766C64C2F /* Pods-Tests-[Test] Code Coverage (Full).release.xcconfig */,
+				DC5A95BEE6B82A57F02A8AF9 /* Pods-Tests-[Test] Code Coverage (Integration).debug.xcconfig */,
+				90F402CCAA4F35C5D46D0903 /* Pods-Tests-[Test] Code Coverage (Integration).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		797ECFCD2057C4D5007E15F5 = {
+			isa = PBXGroup;
+			children = (
+				79E8347C20876F3200CE089B /* Support Files */,
+				797ED0192057C807007E15F5 /* Tests */,
+				797ECFFD2057C6D2007E15F5 /* Host Applications */,
+				797ECFD72057C4D5007E15F5 /* Products */,
+				FB1AB0332F4A72B5037EEEC4 /* Frameworks */,
+				724B5F25CD546F41EDF88EFD /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		797ECFD72057C4D5007E15F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				797ECFD62057C4D5007E15F5 /* iOS Host Application.app */,
+				797ED0202057C96E007E15F5 /* [Test] iOS Integration.xctest */,
+				79A825E9206CC4B700648EE5 /* [Test] iOS Unit.xctest */,
+				79A82603206CC89C00648EE5 /* [Test] Code Coverage (Unit).xctest */,
+				79A1D2C72073A99600D97E64 /* [Test] Code Coverage (Full).xctest */,
+				79C19F6221F731A4007BC183 /* [Test] Code Coverage (Integration).xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		797ECFFD2057C6D2007E15F5 /* Host Applications */ = {
+			isa = PBXGroup;
+			children = (
+				797ECFFE2057C6D2007E15F5 /* iOS Host Application */,
+			);
+			path = "Host Applications";
+			sourceTree = "<group>";
+		};
+		797ECFFE2057C6D2007E15F5 /* iOS Host Application */ = {
+			isa = PBXGroup;
+			children = (
+				797ECFFF2057C6D2007E15F5 /* Classes */,
+				797ED0072057C6D2007E15F5 /* main.m */,
+				797ED0082057C6D2007E15F5 /* Resources */,
+			);
+			path = "iOS Host Application";
+			sourceTree = "<group>";
+		};
+		797ECFFF2057C6D2007E15F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				797ED0002057C6D2007E15F5 /* Controller */,
+				797ED0052057C6D2007E15F5 /* Model */,
+				797ED0062057C6D2007E15F5 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		797ED0002057C6D2007E15F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				797ED0012057C6D2007E15F5 /* AppDelegate.h */,
+				797ED0022057C6D2007E15F5 /* AppDelegate.m */,
+				797ED0032057C6D2007E15F5 /* ViewController.h */,
+				797ED0042057C6D2007E15F5 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		797ED0052057C6D2007E15F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		797ED0062057C6D2007E15F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		797ED0082057C6D2007E15F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				797ED0092057C6D2007E15F5 /* General */,
+				797ED00B2057C6D2007E15F5 /* Images */,
+				797ED00D2057C6D2007E15F5 /* Interface */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		797ED0092057C6D2007E15F5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				797ED00A2057C6D2007E15F5 /* Info.plist */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		797ED00B2057C6D2007E15F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				797ED00C2057C6D2007E15F5 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		797ED00D2057C6D2007E15F5 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				797ED00E2057C6D2007E15F5 /* LaunchScreen.storyboard */,
+				797ED0102057C6D2007E15F5 /* Main.storyboard */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		797ED0192057C807007E15F5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79D7CF45210E8BEC00F72AF0 /* Fixtures */,
+				797ED02F20588343007E15F5 /* Helpers */,
+				797ED02A205846C9007E15F5 /* Resources */,
+				797ED01A2057C807007E15F5 /* Integration */,
+				797ED01B2057C807007E15F5 /* Unit */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		797ED01A2057C807007E15F5 /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				79C1A0B121F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m */,
+				79C1A0AF21F73320007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m */,
+				79C1A0B021F73321007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m */,
+				79C1A0B221F73321007BC183 /* CEN2ChatEngineUserStateIntegrationTest.m */,
+				79C1A0B321F73321007BC183 /* Chat */,
+				79C1A0A321F73320007BC183 /* Plugins */,
+			);
+			path = Integration;
+			sourceTree = "<group>";
+		};
+		797ED01B2057C807007E15F5 /* Unit */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F6621F732E0007BC183 /* Core */,
+				79C19F7D21F732E1007BC183 /* Data */,
+				79C19F8E21F732E1007BC183 /* Misc */,
+				79C19F9121F732E1007BC183 /* Plugins */,
+			);
+			path = Unit;
+			sourceTree = "<group>";
+		};
+		797ED0212057C96E007E15F5 /* [Test] iOS Integration */ = {
+			isa = PBXGroup;
+			children = (
+				797ED0242057C96E007E15F5 /* Info.plist */,
+			);
+			path = "[Test] iOS Integration";
+			sourceTree = "<group>";
+		};
+		797ED02A205846C9007E15F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				79D3E840208773D90051D3A4 /* scripts */,
+				797ED02B205846F1007E15F5 /* test-keysset.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		797ED02F20588343007E15F5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				79C1A0E221F7340F007BC183 /* Categories */,
+				797ED05520595E50007E15F5 /* Plugins */,
+				797ED03020588379007E15F5 /* CENTestCase.h */,
+				797ED03120588379007E15F5 /* CENTestCase.m */,
+				79C1A0DB21F733CF007BC183 /* CENTestEventEmitter.h */,
+				79C1A0DC21F733CF007BC183 /* CENTestEventEmitter.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		797ED05520595E50007E15F5 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				797ED05620595E50007E15F5 /* Dummy */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		797ED05620595E50007E15F5 /* Dummy */ = {
+			isa = PBXGroup;
+			children = (
+				797ED06120596848007E15F5 /* CEDummyEmitMiddleware.h */,
+				797ED06320596848007E15F5 /* CEDummyEmitMiddleware.m */,
+				797ED06020596848007E15F5 /* CEDummyOnMiddleware.h */,
+				797ED06220596848007E15F5 /* CEDummyOnMiddleware.m */,
+				797ED05720595E50007E15F5 /* CEDummyExtension.h */,
+				797ED05820595E50007E15F5 /* CEDummyExtension.m */,
+				797ED05920595E50007E15F5 /* CEDummyPlugin.h */,
+				797ED05A20595E50007E15F5 /* CEDummyPlugin.m */,
+			);
+			path = Dummy;
+			sourceTree = "<group>";
+		};
+		79A825EA206CC4B700648EE5 /* [Test] iOS Unit */ = {
+			isa = PBXGroup;
+			children = (
+				79A825ED206CC4B700648EE5 /* Info.plist */,
+			);
+			path = "[Test] iOS Unit";
+			sourceTree = "<group>";
+		};
+		79C19F6421F731F3007BC183 /* [Test] Code Coverage (Integration) */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F6521F731F3007BC183 /* Info.plist */,
+			);
+			path = "[Test] Code Coverage (Integration)";
+			sourceTree = "<group>";
+		};
+		79C19F6621F732E0007BC183 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F6721F732E0007BC183 /* CENChatEngineEventEmitterTest.m */,
+				79C19F6821F732E0007BC183 /* CENChatEngineUserTest.m */,
+				79C19F6921F732E0007BC183 /* CENChatEngineTest.m */,
+				79C19F6A21F732E0007BC183 /* CENChatEngineAuthorizationTest.m */,
+				79C19F6B21F732E0007BC183 /* CENChatEngineConnectionTest.m */,
+				79C19F6C21F732E0007BC183 /* CENChatEnginePluginsTest.m */,
+				79C19F6D21F732E0007BC183 /* CENChatEngineSearchTest.m */,
+				79C19F6E21F732E0007BC183 /* CENChatEnginePublishTest.m */,
+				79C19F6F21F732E0007BC183 /* CENChatEngineChatsTest.m */,
+				79C19F7021F732E0007BC183 /* CENChatEngineSessionTest.m */,
+				79C19F7121F732E0007BC183 /* CENChatEnginePubNubTest.m */,
+				79C19F7221F732E0007BC183 /* Interfaces */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		79C19F7221F732E0007BC183 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F7321F732E0007BC183 /* ChatInterface */,
+				79C19F7721F732E0007BC183 /* CENInterfaceBuilderTest.m */,
+				79C19F7821F732E0007BC183 /* PluginsInterface */,
+				79C19F7A21F732E0007BC183 /* UserInterface */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		79C19F7321F732E0007BC183 /* ChatInterface */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F7421F732E0007BC183 /* CENChatSearchBuilderInterfaceTest.m */,
+				79C19F7521F732E0007BC183 /* CENChatBuilderInterfaceTest.m */,
+				79C19F7621F732E0007BC183 /* CENChatEmitBuilderInterfaceTest.m */,
+			);
+			path = ChatInterface;
+			sourceTree = "<group>";
+		};
+		79C19F7821F732E0007BC183 /* PluginsInterface */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F7921F732E0007BC183 /* CENPluginsBuilderInterfaceTest.m */,
+			);
+			path = PluginsInterface;
+			sourceTree = "<group>";
+		};
+		79C19F7A21F732E0007BC183 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F7B21F732E0007BC183 /* CENUserBuilderInterfaceTest.m */,
+				79C19F7C21F732E0007BC183 /* CENUserConnectBuilderInterfaceTest.m */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		79C19F7D21F732E1007BC183 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F7E21F732E1007BC183 /* CENEventEmitterTest.m */,
+				79C19F7F21F732E1007BC183 /* Managers */,
+				79C19F8421F732E1007BC183 /* Objects */,
+				79C19F8D21F732E1007BC183 /* CENConfigurationTest.m */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		79C19F7F21F732E1007BC183 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F8021F732E1007BC183 /* CENChatsManagerTest.m */,
+				79C19F8121F732E1007BC183 /* CENTemporaryObjectsManagerTest.m */,
+				79C19F8221F732E1007BC183 /* CENUsersManagerTest.m */,
+				79C19F8321F732E1007BC183 /* CENPluginsManagerTest.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		79C19F8421F732E1007BC183 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F8521F732E1007BC183 /* CENEventTest.m */,
+				79C19F8621F732E1007BC183 /* CENChatTest.m */,
+				79C19F8721F732E1007BC183 /* CENObjectPluginsTest.m */,
+				79C19F8821F732E1007BC183 /* CENSessionTest.m */,
+				79C19F8921F732E1007BC183 /* CEUserTest.m */,
+				79C19F8A21F732E1007BC183 /* CENSearchTest.m */,
+				79C19F8B21F732E1007BC183 /* CENObjectTest.m */,
+				79C19F8C21F732E1007BC183 /* CENMeTest.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		79C19F8E21F732E1007BC183 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F8F21F732E1007BC183 /* Helpers */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		79C19F8F21F732E1007BC183 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F9021F732E1007BC183 /* CENErrorTest.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		79C19F9121F732E1007BC183 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F9221F732E1007BC183 /* CENTypingIndicator */,
+				79C19F9621F732E1007BC183 /* CENPushNotifications */,
+				79C19F9A21F732E1007BC183 /* CENEmoji */,
+				79C19F9E21F732E1007BC183 /* CENOnlineUserSearch */,
+				79C19FA121F732E1007BC183 /* CENMuter */,
+				79C19FA521F732E1007BC183 /* CENGravatar */,
+				79C19FA821F732E1007BC183 /* CENUnreadMessages */,
+				79C19FAB21F732E1007BC183 /* CENMarkdown */,
+				79C19FAF21F732E1007BC183 /* CENStateRestoreAugmentation */,
+				79C19FB221F732E1007BC183 /* CENRandomUsername */,
+				79C19FB521F732E1007BC183 /* CEPPluginTest.m */,
+				79C19FB621F732E1007BC183 /* CEPExtensionTest.m */,
+				79C19FB721F732E1007BC183 /* CEPMiddlewareTest.m */,
+				79C19FB821F732E1007BC183 /* CENOpenGraph */,
+				79C19FBB21F732E1007BC183 /* CENEventStatus */,
+				79C19FC021F732E1007BC183 /* CENSearchFilterPlugin */,
+				79C19FC321F732E1007BC183 /* CENUploadcare */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		79C19F9221F732E1007BC183 /* CENTypingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F9321F732E1007BC183 /* CENTypingIndicatorPluginTest.m */,
+				79C19F9421F732E1007BC183 /* CENTypingIndicatorExtensionTest.m */,
+				79C19F9521F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m */,
+			);
+			path = CENTypingIndicator;
+			sourceTree = "<group>";
+		};
+		79C19F9621F732E1007BC183 /* CENPushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F9721F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m */,
+				79C19F9821F732E1007BC183 /* CENPushNotificationsPluginTest.m */,
+				79C19F9921F732E1007BC183 /* CENPushNotificationsExtensionTest.m */,
+			);
+			path = CENPushNotifications;
+			sourceTree = "<group>";
+		};
+		79C19F9A21F732E1007BC183 /* CENEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F9B21F732E1007BC183 /* CENEmojiPluginTest.m */,
+				79C19F9C21F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m */,
+				79C19F9D21F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m */,
+			);
+			path = CENEmoji;
+			sourceTree = "<group>";
+		};
+		79C19F9E21F732E1007BC183 /* CENOnlineUserSearch */ = {
+			isa = PBXGroup;
+			children = (
+				79C19F9F21F732E1007BC183 /* CENOnlineUserSearchPluginTest.m */,
+				79C19FA021F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m */,
+			);
+			path = CENOnlineUserSearch;
+			sourceTree = "<group>";
+		};
+		79C19FA121F732E1007BC183 /* CENMuter */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FA221F732E1007BC183 /* CENMuterExtensionTest.m */,
+				79C19FA321F732E1007BC183 /* CEN14MuterMiddlewareTest.m */,
+				79C19FA421F732E1007BC183 /* CENMuterPluginTest.m */,
+			);
+			path = CENMuter;
+			sourceTree = "<group>";
+		};
+		79C19FA521F732E1007BC183 /* CENGravatar */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FA621F732E1007BC183 /* CENGravatarExtensionTest.m */,
+				79C19FA721F732E1007BC183 /* CENGravatarPluginTest.m */,
+			);
+			path = CENGravatar;
+			sourceTree = "<group>";
+		};
+		79C19FA821F732E1007BC183 /* CENUnreadMessages */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FA921F732E1007BC183 /* CENUnreadMessagesExtensionTest.m */,
+				79C19FAA21F732E1007BC183 /* CENUnreadMessagesPluginTest.m */,
+			);
+			path = CENUnreadMessages;
+			sourceTree = "<group>";
+		};
+		79C19FAB21F732E1007BC183 /* CENMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FAC21F732E1007BC183 /* CENMarkdownPluginParserTest.m */,
+				79C19FAD21F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m */,
+				79C19FAE21F732E1007BC183 /* CENMarkdownPluginTest.m */,
+			);
+			path = CENMarkdown;
+			sourceTree = "<group>";
+		};
+		79C19FAF21F732E1007BC183 /* CENStateRestoreAugmentation */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FB021F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m */,
+				79C19FB121F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m */,
+			);
+			path = CENStateRestoreAugmentation;
+			sourceTree = "<group>";
+		};
+		79C19FB221F732E1007BC183 /* CENRandomUsername */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FB321F732E1007BC183 /* CENRandomUsernameExtensionTest.m */,
+				79C19FB421F732E1007BC183 /* CENRandomUsernamePluginTest.m */,
+			);
+			path = CENRandomUsername;
+			sourceTree = "<group>";
+		};
+		79C19FB821F732E1007BC183 /* CENOpenGraph */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FB921F732E1007BC183 /* CENOpenGraphPluginTest.m */,
+				79C19FBA21F732E1007BC183 /* CENOpenGraphMiddlewareTest.m */,
+			);
+			path = CENOpenGraph;
+			sourceTree = "<group>";
+		};
+		79C19FBB21F732E1007BC183 /* CENEventStatus */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FBC21F732E1007BC183 /* CENEventStatusExtensionTest.m */,
+				79C19FBD21F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m */,
+				79C19FBE21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m */,
+				79C19FBF21F732E1007BC183 /* CENEventStatusPluginTest.m */,
+			);
+			path = CENEventStatus;
+			sourceTree = "<group>";
+		};
+		79C19FC021F732E1007BC183 /* CENSearchFilterPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FC121F732E1007BC183 /* CENSearchFilterMiddlewareTest.m */,
+				79C19FC221F732E1007BC183 /* CENSearchFilterPluginTest.m */,
+			);
+			path = CENSearchFilterPlugin;
+			sourceTree = "<group>";
+		};
+		79C19FC321F732E1007BC183 /* CENUploadcare */ = {
+			isa = PBXGroup;
+			children = (
+				79C19FC421F732E1007BC183 /* CENUploadcareFileInformationTest.m */,
+				79C19FC521F732E1007BC183 /* CENUploadcarePluginTest.m */,
+				79C19FC621F732E1007BC183 /* CENUploadcareMiddlewareTest.m */,
+				79C19FC721F732E1007BC183 /* CENUploadcareExtensionTest.m */,
+			);
+			path = CENUploadcare;
+			sourceTree = "<group>";
+		};
+		79C1A0A321F73320007BC183 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				79C1A0A421F73320007BC183 /* CEN8TypingIndicatorPluginIntegrationTest.m */,
+				79C1A0A521F73320007BC183 /* CEN9OnlineSearchPluginIntegrationTest.m */,
+				79C1A0A621F73320007BC183 /* CEN10EmojiPluginIntegrationTest.m */,
+				79C1A0A821F73320007BC183 /* CEN11UnreadMessagesPluginIntegrationTest.m */,
+				79C1A0A721F73320007BC183 /* CEN12RandomUsernamePluginIntegrationTest.m */,
+				79C1A0A921F73320007BC183 /* CEN13EventStatusPluginIntegrationTest.m */,
+				79C1A0AA21F73320007BC183 /* CEN14MuterPluginIntegrationTest.m */,
+				79C1A0AB21F73320007BC183 /* CEN15PushNotificationsPluginIntegrationTest.m */,
+				79C1A0AC21F73320007BC183 /* CEN16UploadcarePluginIntegrationTest.m */,
+				79C1A0AD21F73320007BC183 /* CEN17MarkdownPluginIntegrationTest.m */,
+				79C1A0AE21F73320007BC183 /* CEN18GravatarPluginIntegrationTest.m */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		79C1A0B321F73321007BC183 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				79C1A0B421F73321007BC183 /* CEN6ChatEngineChatMetaIntegrationTest.m */,
+				79C1A0B521F73321007BC183 /* CEN7ChatEngineChatInviteIntegrationTest.m */,
+				79C1A0B621F73321007BC183 /* CEN5ChatEngineChatIntegrationTest.m */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		79C1A0E221F7340F007BC183 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				79C1A0E321F7340F007BC183 /* NSInvocation+CENTest.m */,
+				79C1A0E421F7340F007BC183 /* NSInvocation+CENTest.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		79D3E840208773D90051D3A4 /* scripts */ = {
+			isa = PBXGroup;
+			children = (
+				79D3E8422087742F0051D3A4 /* buildkeysset.sh */,
+			);
+			path = scripts;
+			sourceTree = "<group>";
+		};
+		79E8347720876B7900CE089B /* [Test] Code Coverage (Full) */ = {
+			isa = PBXGroup;
+			children = (
+				79E8347820876B7900CE089B /* Info.plist */,
+			);
+			path = "[Test] Code Coverage (Full)";
+			sourceTree = "<group>";
+		};
+		79E8347920876B7900CE089B /* [Test] Code Coverage (Unit) */ = {
+			isa = PBXGroup;
+			children = (
+				79E8347A20876B7900CE089B /* Info.plist */,
+			);
+			path = "[Test] Code Coverage (Unit)";
+			sourceTree = "<group>";
+		};
+		79E8347C20876F3200CE089B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79A825EA206CC4B700648EE5 /* [Test] iOS Unit */,
+				797ED0212057C96E007E15F5 /* [Test] iOS Integration */,
+				79E8347720876B7900CE089B /* [Test] Code Coverage (Full) */,
+				79C19F6421F731F3007BC183 /* [Test] Code Coverage (Integration) */,
+				79E8347920876B7900CE089B /* [Test] Code Coverage (Unit) */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		FB1AB0332F4A72B5037EEEC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79E834422085113C00CE089B /* CEChatEngine.framework */,
+				93C7A804F01B8CF2701B6932 /* Pods_Tests__Test__Code_Coverage__Full_.framework */,
+				DBABD77CFE54106931280E60 /* Pods_Tests__Test__Code_Coverage__Unit_.framework */,
+				87B9D9A96AF36E742AB3028E /* Pods_Tests__Test__iOS_Integration.framework */,
+				18C9446FB5F9E3925C4FE487 /* Pods_Tests__Test__iOS_Unit.framework */,
+				DA901AE0BA3D8B6E2EAFD3DB /* Pods_Tests__Test__Code_Coverage__Integration_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		797ECFD52057C4D5007E15F5 /* iOS Host Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797ECFF72057C4D5007E15F5 /* Build configuration list for PBXNativeTarget "iOS Host Application" */;
+			buildPhases = (
+				797ECFD22057C4D5007E15F5 /* Sources */,
+				797ECFD32057C4D5007E15F5 /* Frameworks */,
+				797ECFD42057C4D5007E15F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Host Application";
+			productName = ChatEngineTests;
+			productReference = 797ECFD62057C4D5007E15F5 /* iOS Host Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		797ED01F2057C96E007E15F5 /* [Test] iOS Integration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 797ED0252057C96E007E15F5 /* Build configuration list for PBXNativeTarget "[Test] iOS Integration" */;
+			buildPhases = (
+				DEB1B2FC45E6AA60EFB32B72 /* [CP] Check Pods Manifest.lock */,
+				797ED01C2057C96E007E15F5 /* Sources */,
+				797ED01D2057C96E007E15F5 /* Frameworks */,
+				797ED01E2057C96E007E15F5 /* Resources */,
+				A28BEF7F1B417ED60080F879 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "[Test] iOS Integration";
+			productName = "[Test] iOS Integration";
+			productReference = 797ED0202057C96E007E15F5 /* [Test] iOS Integration.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A1D2AF2073A99600D97E64 /* [Test] Code Coverage (Full) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A1D2C42073A99600D97E64 /* Build configuration list for PBXNativeTarget "[Test] Code Coverage (Full)" */;
+			buildPhases = (
+				43B9ECED1F7E418766CD1811 /* [CP] Check Pods Manifest.lock */,
+				79E8347B20876EFB00CE089B /* Create Test Keys file */,
+				79A1D2B32073A99600D97E64 /* Sources */,
+				79A1D2BF2073A99600D97E64 /* Frameworks */,
+				79A1D2C12073A99600D97E64 /* Resources */,
+				E289573C1AB54414469C7794 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79A1D2B02073A99600D97E64 /* PBXTargetDependency */,
+			);
+			name = "[Test] Code Coverage (Full)";
+			productName = "[Test] Code Coverage";
+			productReference = 79A1D2C72073A99600D97E64 /* [Test] Code Coverage (Full).xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A825E8206CC4B700648EE5 /* [Test] iOS Unit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A825F0206CC4B700648EE5 /* Build configuration list for PBXNativeTarget "[Test] iOS Unit" */;
+			buildPhases = (
+				9AD32386C0BB66E57F6D74CB /* [CP] Check Pods Manifest.lock */,
+				79A825E5206CC4B700648EE5 /* Sources */,
+				79A825E6206CC4B700648EE5 /* Frameworks */,
+				79A825E7206CC4B700648EE5 /* Resources */,
+				3386AB0650A5681726855C78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "[Test] iOS Unit";
+			productName = "[Test] iOS Unit";
+			productReference = 79A825E9206CC4B700648EE5 /* [Test] iOS Unit.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79A82602206CC89C00648EE5 /* [Test] Code Coverage (Unit) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79A8260A206CC89C00648EE5 /* Build configuration list for PBXNativeTarget "[Test] Code Coverage (Unit)" */;
+			buildPhases = (
+				725735FDC2E0F06743784674 /* [CP] Check Pods Manifest.lock */,
+				79D3E843208774E70051D3A4 /* Create Test Keys file */,
+				79A825FF206CC89C00648EE5 /* Sources */,
+				79A82600206CC89C00648EE5 /* Frameworks */,
+				79A82601206CC89C00648EE5 /* Resources */,
+				723D5B2334DAB48EA350894F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79E8344620851FE800CE089B /* PBXTargetDependency */,
+			);
+			name = "[Test] Code Coverage (Unit)";
+			productName = "[Test] Code Coverage";
+			productReference = 79A82603206CC89C00648EE5 /* [Test] Code Coverage (Unit).xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79C19F1121F731A4007BC183 /* [Test] Code Coverage (Integration) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C19F5F21F731A4007BC183 /* Build configuration list for PBXNativeTarget "[Test] Code Coverage (Integration)" */;
+			buildPhases = (
+				FB642644C1F7FF63FA85716D /* [CP] Check Pods Manifest.lock */,
+				79C19F1521F731A4007BC183 /* Create Test Keys file */,
+				79C19F1621F731A4007BC183 /* Sources */,
+				79C19F5921F731A4007BC183 /* Frameworks */,
+				79C19F5B21F731A4007BC183 /* Resources */,
+				34744BE801E5F5BAB5F3CD50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79C19F1221F731A4007BC183 /* PBXTargetDependency */,
+			);
+			name = "[Test] Code Coverage (Integration)";
+			productName = "[Test] Code Coverage";
+			productReference = 79C19F6221F731A4007BC183 /* [Test] Code Coverage (Integration).xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		797ECFCE2057C4D5007E15F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Serhii Mamontov";
+				TargetAttributes = {
+					797ECFD52057C4D5007E15F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					797ED01F2057C96E007E15F5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					79A1D2AF2073A99600D97E64 = {
+						ProvisioningStyle = Automatic;
+					};
+					79A825E8206CC4B700648EE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					79A82602206CC89C00648EE5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 797ECFD52057C4D5007E15F5;
+					};
+					79C19F1121F731A4007BC183 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 797ECFD12057C4D5007E15F5 /* Build configuration list for PBXProject "ChatEngine Tests" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 797ECFCD2057C4D5007E15F5;
+			productRefGroup = 797ECFD72057C4D5007E15F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				797ECFD52057C4D5007E15F5 /* iOS Host Application */,
+				797ED01F2057C96E007E15F5 /* [Test] iOS Integration */,
+				79A825E8206CC4B700648EE5 /* [Test] iOS Unit */,
+				79A82602206CC89C00648EE5 /* [Test] Code Coverage (Unit) */,
+				79C19F1121F731A4007BC183 /* [Test] Code Coverage (Integration) */,
+				79A1D2AF2073A99600D97E64 /* [Test] Code Coverage (Full) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		797ECFD42057C4D5007E15F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797ED0172057C6D2007E15F5 /* LaunchScreen.storyboard in Resources */,
+				797ED0162057C6D2007E15F5 /* Assets.xcassets in Resources */,
+				797ED0182057C6D2007E15F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797ED01E2057C96E007E15F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7CF46210E8BED00F72AF0 /* Fixtures in Resources */,
+				797ED02C205846F1007E15F5 /* test-keysset.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1D2C12073A99600D97E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7CF47210E8BED00F72AF0 /* Fixtures in Resources */,
+				79A1D2CD2073AD3600D97E64 /* test-keysset.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A825E7206CC4B700648EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D7CF48210EF25A00F72AF0 /* Fixtures in Resources */,
+				79A1D2D02073AD3D00D97E64 /* test-keysset.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A82601206CC89C00648EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A1D2D12073AD3E00D97E64 /* test-keysset.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C19F5B21F731A4007BC183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C19F5C21F731A4007BC183 /* Fixtures in Resources */,
+				79C19F5D21F731A4007BC183 /* test-keysset.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3386AB0650A5681726855C78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] iOS Unit/Pods-Tests-[Test] iOS Unit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CENChatEngine/CENChatEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/YAHTTPVCR/YAHTTPVCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CENChatEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YAHTTPVCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] iOS Unit/Pods-Tests-[Test] iOS Unit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34744BE801E5F5BAB5F3CD50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] Code Coverage (Integration)/Pods-Tests-[Test] Code Coverage (Integration)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CENChatEngine/CENChatEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/YAHTTPVCR/YAHTTPVCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CENChatEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YAHTTPVCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] Code Coverage (Integration)/Pods-Tests-[Test] Code Coverage (Integration)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43B9ECED1F7E418766CD1811 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-[Test] Code Coverage (Full)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		723D5B2334DAB48EA350894F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] Code Coverage (Unit)/Pods-Tests-[Test] Code Coverage (Unit)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CENChatEngine/CENChatEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/YAHTTPVCR/YAHTTPVCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CENChatEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YAHTTPVCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] Code Coverage (Unit)/Pods-Tests-[Test] Code Coverage (Unit)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725735FDC2E0F06743784674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-[Test] Code Coverage (Unit)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79C19F1521F731A4007BC183 /* Create Test Keys file */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create Test Keys file";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"${SRCROOT}/Tests/Resources/scripts/buildkeysset.sh\"";
+		};
+		79D3E843208774E70051D3A4 /* Create Test Keys file */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create Test Keys file";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"${SRCROOT}/Tests/Resources/scripts/buildkeysset.sh\"";
+		};
+		79E8347B20876EFB00CE089B /* Create Test Keys file */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create Test Keys file";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"${SRCROOT}/Tests/Resources/scripts/buildkeysset.sh\"";
+		};
+		9AD32386C0BB66E57F6D74CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-[Test] iOS Unit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A28BEF7F1B417ED60080F879 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] iOS Integration/Pods-Tests-[Test] iOS Integration-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CENChatEngine/CENChatEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/YAHTTPVCR/YAHTTPVCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CENChatEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YAHTTPVCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] iOS Integration/Pods-Tests-[Test] iOS Integration-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB1B2FC45E6AA60EFB32B72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-[Test] iOS Integration-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E289573C1AB54414469C7794 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] Code Coverage (Full)/Pods-Tests-[Test] Code Coverage (Full)-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CENChatEngine/CENChatEngine.framework",
+				"${BUILT_PRODUCTS_DIR}/OCMock/OCMock.framework",
+				"${BUILT_PRODUCTS_DIR}/PubNub/PubNub.framework",
+				"${BUILT_PRODUCTS_DIR}/YAHTTPVCR/YAHTTPVCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CENChatEngine.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OCMock.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PubNub.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YAHTTPVCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests-[Test] Code Coverage (Full)/Pods-Tests-[Test] Code Coverage (Full)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB642644C1F7FF63FA85716D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tests-[Test] Code Coverage (Integration)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		797ECFD22057C4D5007E15F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797ED0132057C6D2007E15F5 /* ViewController.m in Sources */,
+				797ED0142057C6D2007E15F5 /* main.m in Sources */,
+				797ED0122057C6D2007E15F5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		797ED01C2057C96E007E15F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797ED06420596848007E15F5 /* CEDummyOnMiddleware.m in Sources */,
+				7995DC742210DC8500D51933 /* CEN8TypingIndicatorPluginIntegrationTest.m in Sources */,
+				7995DC732210DC8500D51933 /* CEN5ChatEngineChatIntegrationTest.m in Sources */,
+				7995DC6D2210DC8500D51933 /* CEN1ChatEngineConnectionIntegrationTest.m in Sources */,
+				797ED06520596848007E15F5 /* CEDummyEmitMiddleware.m in Sources */,
+				7995DC772210DC8500D51933 /* CEN12RandomUsernamePluginIntegrationTest.m in Sources */,
+				797ED05C20595E50007E15F5 /* CEDummyPlugin.m in Sources */,
+				7995DC782210DC8500D51933 /* CEN11UnreadMessagesPluginIntegrationTest.m in Sources */,
+				797ED03220588379007E15F5 /* CENTestCase.m in Sources */,
+				7995DC722210DC8500D51933 /* CEN7ChatEngineChatInviteIntegrationTest.m in Sources */,
+				79C1A0DD21F733CF007BC183 /* CENTestEventEmitter.m in Sources */,
+				79C1A0E521F7340F007BC183 /* NSInvocation+CENTest.m in Sources */,
+				7995DC6B2210DC4F00D51933 /* CEN18GravatarPluginIntegrationTest.m in Sources */,
+				7995DC702210DC8500D51933 /* CEN2ChatEngineUserStateIntegrationTest.m in Sources */,
+				7995DC6C2210DC5300D51933 /* CEN17MarkdownPluginIntegrationTest.m in Sources */,
+				7995DC792210DC8500D51933 /* CEN13EventStatusPluginIntegrationTest.m in Sources */,
+				7995DC7A2210DC8500D51933 /* CEN14MuterPluginIntegrationTest.m in Sources */,
+				7995DC7B2210DC8500D51933 /* CEN15PushNotificationsPluginIntegrationTest.m in Sources */,
+				7995DC6E2210DC8500D51933 /* CEN4ChatEngineHistoryIntegrationTest.m in Sources */,
+				797ED05B20595E50007E15F5 /* CEDummyExtension.m in Sources */,
+				7995DC712210DC8500D51933 /* CEN6ChatEngineChatMetaIntegrationTest.m in Sources */,
+				7995DC6F2210DC8500D51933 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m in Sources */,
+				7995DC7C2210DC8500D51933 /* CEN16UploadcarePluginIntegrationTest.m in Sources */,
+				7995DC752210DC8500D51933 /* CEN9OnlineSearchPluginIntegrationTest.m in Sources */,
+				7995DC762210DC8500D51933 /* CEN10EmojiPluginIntegrationTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A1D2B32073A99600D97E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C1A03921F732E1007BC183 /* CENPushNotificationsPluginTest.m in Sources */,
+				79C1A05A21F732E1007BC183 /* CENGravatarPluginTest.m in Sources */,
+				79C1A06C21F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m in Sources */,
+				79C1A03321F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m in Sources */,
+				79C19FDC21F732E1007BC183 /* CENChatEngineSearchTest.m in Sources */,
+				79C1A05421F732E1007BC183 /* CENMuterPluginTest.m in Sources */,
+				79C19FD021F732E1007BC183 /* CENChatEngineTest.m in Sources */,
+				79C1A00621F732E1007BC183 /* CENTemporaryObjectsManagerTest.m in Sources */,
+				79C1A00F21F732E1007BC183 /* CENEventTest.m in Sources */,
+				79C1A03621F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m in Sources */,
+				79C1A00C21F732E1007BC183 /* CENPluginsManagerTest.m in Sources */,
+				79C1A03C21F732E1007BC183 /* CENPushNotificationsExtensionTest.m in Sources */,
+				79C1A00321F732E1007BC183 /* CENChatsManagerTest.m in Sources */,
+				79C1A09021F732E1007BC183 /* CENEventStatusPluginTest.m in Sources */,
+				79C1A09C21F732E1007BC183 /* CENUploadcarePluginTest.m in Sources */,
+				79C1A07821F732E1007BC183 /* CEPPluginTest.m in Sources */,
+				79C1A06321F732E1007BC183 /* CENMarkdownPluginParserTest.m in Sources */,
+				79C1A0C621F73321007BC183 /* CEN15PushNotificationsPluginIntegrationTest.m in Sources */,
+				79C1A08421F732E1007BC183 /* CENOpenGraphMiddlewareTest.m in Sources */,
+				79C1A0A221F732E1007BC183 /* CENUploadcareExtensionTest.m in Sources */,
+				79C19FD921F732E1007BC183 /* CENChatEnginePluginsTest.m in Sources */,
+				79C19FE521F732E1007BC183 /* CENChatEngineSessionTest.m in Sources */,
+				79C1A02721F732E1007BC183 /* CENConfigurationTest.m in Sources */,
+				79C1A0BC21F73321007BC183 /* CEN10EmojiPluginIntegrationTest.m in Sources */,
+				79C1A04B21F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m in Sources */,
+				79C19FF121F732E1007BC183 /* CENChatEmitBuilderInterfaceTest.m in Sources */,
+				79C1A0D221F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m in Sources */,
+				79C1A05D21F732E1007BC183 /* CENUnreadMessagesExtensionTest.m in Sources */,
+				79C19FE221F732E1007BC183 /* CENChatEngineChatsTest.m in Sources */,
+				79C19FE821F732E1007BC183 /* CENChatEnginePubNubTest.m in Sources */,
+				79C1A0DA21F73321007BC183 /* CEN5ChatEngineChatIntegrationTest.m in Sources */,
+				79A1D2B62073A99600D97E64 /* CEDummyPlugin.m in Sources */,
+				79C1A0C021F73321007BC183 /* CEN11UnreadMessagesPluginIntegrationTest.m in Sources */,
+				79C1A02121F732E1007BC183 /* CENObjectTest.m in Sources */,
+				79C1A07521F732E1007BC183 /* CENRandomUsernamePluginTest.m in Sources */,
+				79C1A0CC21F73321007BC183 /* CEN18GravatarPluginIntegrationTest.m in Sources */,
+				79C1A0BA21F73321007BC183 /* CEN9OnlineSearchPluginIntegrationTest.m in Sources */,
+				79C1A04E21F732E1007BC183 /* CENMuterExtensionTest.m in Sources */,
+				79C1A0D421F73321007BC183 /* CEN2ChatEngineUserStateIntegrationTest.m in Sources */,
+				79C1A07E21F732E1007BC183 /* CEPMiddlewareTest.m in Sources */,
+				79A1D2B72073A99600D97E64 /* CENTestCase.m in Sources */,
+				79C1A02D21F732E1007BC183 /* CENTypingIndicatorPluginTest.m in Sources */,
+				79A1D2B82073A99600D97E64 /* CEDummyOnMiddleware.m in Sources */,
+				79C1A02421F732E1007BC183 /* CENMeTest.m in Sources */,
+				79C1A03021F732E1007BC183 /* CENTypingIndicatorExtensionTest.m in Sources */,
+				79C19FFA21F732E1007BC183 /* CENUserBuilderInterfaceTest.m in Sources */,
+				79C1A0CA21F73321007BC183 /* CEN17MarkdownPluginIntegrationTest.m in Sources */,
+				79C1A08121F732E1007BC183 /* CENOpenGraphPluginTest.m in Sources */,
+				79C1A0CE21F73321007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m in Sources */,
+				79C1A0C421F73321007BC183 /* CEN14MuterPluginIntegrationTest.m in Sources */,
+				79C19FCA21F732E1007BC183 /* CENChatEngineEventEmitterTest.m in Sources */,
+				79C1A08D21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m in Sources */,
+				79C1A01521F732E1007BC183 /* CENObjectPluginsTest.m in Sources */,
+				79C19FDF21F732E1007BC183 /* CENChatEnginePublishTest.m in Sources */,
+				79C1A0C221F73321007BC183 /* CEN13EventStatusPluginIntegrationTest.m in Sources */,
+				79C1A04521F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m in Sources */,
+				79C1A09321F732E1007BC183 /* CENSearchFilterMiddlewareTest.m in Sources */,
+				79A1D2B92073A99600D97E64 /* CEDummyEmitMiddleware.m in Sources */,
+				79C1A0D021F73321007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m in Sources */,
+				79C19FEE21F732E1007BC183 /* CENChatBuilderInterfaceTest.m in Sources */,
+				79C19FF421F732E1007BC183 /* CENInterfaceBuilderTest.m in Sources */,
+				79C19FCD21F732E1007BC183 /* CENChatEngineUserTest.m in Sources */,
+				79C19FF721F732E1007BC183 /* CENPluginsBuilderInterfaceTest.m in Sources */,
+				79C1A09921F732E1007BC183 /* CENUploadcareFileInformationTest.m in Sources */,
+				79C1A07221F732E1007BC183 /* CENRandomUsernameExtensionTest.m in Sources */,
+				79C1A00921F732E1007BC183 /* CENUsersManagerTest.m in Sources */,
+				79C1A09F21F732E1007BC183 /* CENUploadcareMiddlewareTest.m in Sources */,
+				79A1D2BB2073A99600D97E64 /* CEDummyExtension.m in Sources */,
+				79C1A08A21F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m in Sources */,
+				79C1A01821F732E1007BC183 /* CENSessionTest.m in Sources */,
+				79C1A01221F732E1007BC183 /* CENChatTest.m in Sources */,
+				79C1A0BE21F73321007BC183 /* CEN12RandomUsernamePluginIntegrationTest.m in Sources */,
+				79C19FFD21F732E1007BC183 /* CENUserConnectBuilderInterfaceTest.m in Sources */,
+				79C1A02A21F732E1007BC183 /* CENErrorTest.m in Sources */,
+				79C1A01B21F732E1007BC183 /* CEUserTest.m in Sources */,
+				79C1A06621F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m in Sources */,
+				79C1A06F21F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m in Sources */,
+				79C1A0E121F733CF007BC183 /* CENTestEventEmitter.m in Sources */,
+				79C1A05121F732E1007BC183 /* CEN14MuterMiddlewareTest.m in Sources */,
+				79C1A06021F732E1007BC183 /* CENUnreadMessagesPluginTest.m in Sources */,
+				79C1A00021F732E1007BC183 /* CENEventEmitterTest.m in Sources */,
+				79C1A03F21F732E1007BC183 /* CENEmojiPluginTest.m in Sources */,
+				79C1A09621F732E1007BC183 /* CENSearchFilterPluginTest.m in Sources */,
+				79C19FEB21F732E1007BC183 /* CENChatSearchBuilderInterfaceTest.m in Sources */,
+				79C1A04821F732E1007BC183 /* CENOnlineUserSearchPluginTest.m in Sources */,
+				79C19FD621F732E1007BC183 /* CENChatEngineConnectionTest.m in Sources */,
+				79C1A0D821F73321007BC183 /* CEN7ChatEngineChatInviteIntegrationTest.m in Sources */,
+				79C1A07B21F732E1007BC183 /* CEPExtensionTest.m in Sources */,
+				79C1A0B821F73321007BC183 /* CEN8TypingIndicatorPluginIntegrationTest.m in Sources */,
+				79C1A0E921F7340F007BC183 /* NSInvocation+CENTest.m in Sources */,
+				79C1A0D621F73321007BC183 /* CEN6ChatEngineChatMetaIntegrationTest.m in Sources */,
+				79C1A05721F732E1007BC183 /* CENGravatarExtensionTest.m in Sources */,
+				79C1A04221F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m in Sources */,
+				79C19FD321F732E1007BC183 /* CENChatEngineAuthorizationTest.m in Sources */,
+				79C1A08721F732E1007BC183 /* CENEventStatusExtensionTest.m in Sources */,
+				79C1A0C821F73321007BC183 /* CEN16UploadcarePluginIntegrationTest.m in Sources */,
+				79C1A01E21F732E1007BC183 /* CENSearchTest.m in Sources */,
+				79C1A06921F732E1007BC183 /* CENMarkdownPluginTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A825E5206CC4B700648EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7945D5C920712B1F00FECBFB /* CEDummyPlugin.m in Sources */,
+				79C1A09D21F732E1007BC183 /* CENUploadcareMiddlewareTest.m in Sources */,
+				79C1A06421F732E1007BC183 /* CEN17MarkdownMiddlewareTest.m in Sources */,
+				79C1A02E21F732E1007BC183 /* CENTypingIndicatorExtensionTest.m in Sources */,
+				79C19FD721F732E1007BC183 /* CENChatEnginePluginsTest.m in Sources */,
+				79C1A02B21F732E1007BC183 /* CENTypingIndicatorPluginTest.m in Sources */,
+				79C1A09121F732E1007BC183 /* CENSearchFilterMiddlewareTest.m in Sources */,
+				79C19FFE21F732E1007BC183 /* CENEventEmitterTest.m in Sources */,
+				79C19FE021F732E1007BC183 /* CENChatEngineChatsTest.m in Sources */,
+				79C1A00721F732E1007BC183 /* CENUsersManagerTest.m in Sources */,
+				79C1A00A21F732E1007BC183 /* CENPluginsManagerTest.m in Sources */,
+				79C1A08521F732E1007BC183 /* CENEventStatusExtensionTest.m in Sources */,
+				79C1A08E21F732E1007BC183 /* CENEventStatusPluginTest.m in Sources */,
+				79C19FDA21F732E1007BC183 /* CENChatEngineSearchTest.m in Sources */,
+				79C1A00121F732E1007BC183 /* CENChatsManagerTest.m in Sources */,
+				7945D5C820712B1F00FECBFB /* CEDummyExtension.m in Sources */,
+				79C1A07C21F732E1007BC183 /* CEPMiddlewareTest.m in Sources */,
+				79C1A06D21F732E1007BC183 /* CENStateRestoreAugmentationPluginTest.m in Sources */,
+				79C1A05221F732E1007BC183 /* CENMuterPluginTest.m in Sources */,
+				79C19FC821F732E1007BC183 /* CENChatEngineEventEmitterTest.m in Sources */,
+				79C1A09421F732E1007BC183 /* CENSearchFilterPluginTest.m in Sources */,
+				79C1A05B21F732E1007BC183 /* CENUnreadMessagesExtensionTest.m in Sources */,
+				79C1A00D21F732E1007BC183 /* CENEventTest.m in Sources */,
+				79C1A06721F732E1007BC183 /* CENMarkdownPluginTest.m in Sources */,
+				79C1A08221F732E1007BC183 /* CENOpenGraphMiddlewareTest.m in Sources */,
+				79C19FE321F732E1007BC183 /* CENChatEngineSessionTest.m in Sources */,
+				79C1A05821F732E1007BC183 /* CENGravatarPluginTest.m in Sources */,
+				7945D5C620712B1F00FECBFB /* CEDummyEmitMiddleware.m in Sources */,
+				79C1A04F21F732E1007BC183 /* CEN14MuterMiddlewareTest.m in Sources */,
+				79C19FF221F732E1007BC183 /* CENInterfaceBuilderTest.m in Sources */,
+				79C19FE621F732E1007BC183 /* CENChatEnginePubNubTest.m in Sources */,
+				79C1A02521F732E1007BC183 /* CENConfigurationTest.m in Sources */,
+				79A82610206CD53B00648EE5 /* CENTestCase.m in Sources */,
+				79C19FDD21F732E1007BC183 /* CENChatEnginePublishTest.m in Sources */,
+				79C19FEF21F732E1007BC183 /* CENChatEmitBuilderInterfaceTest.m in Sources */,
+				79C1A05521F732E1007BC183 /* CENGravatarExtensionTest.m in Sources */,
+				79C1A08B21F732E1007BC183 /* CEN13EventStatusEmitMiddlewareTest.m in Sources */,
+				79C1A03A21F732E1007BC183 /* CENPushNotificationsExtensionTest.m in Sources */,
+				79C1A07021F732E1007BC183 /* CENRandomUsernameExtensionTest.m in Sources */,
+				79C1A04C21F732E1007BC183 /* CENMuterExtensionTest.m in Sources */,
+				79C19FF821F732E1007BC183 /* CENUserBuilderInterfaceTest.m in Sources */,
+				79C1A01621F732E1007BC183 /* CENSessionTest.m in Sources */,
+				79C1A01921F732E1007BC183 /* CEUserTest.m in Sources */,
+				79C1A04621F732E1007BC183 /* CENOnlineUserSearchPluginTest.m in Sources */,
+				79C1A05E21F732E1007BC183 /* CENUnreadMessagesPluginTest.m in Sources */,
+				79C1A03121F732E1007BC183 /* CEN8TypingIndicatorMiddlewareTest.m in Sources */,
+				79C1A07F21F732E1007BC183 /* CENOpenGraphPluginTest.m in Sources */,
+				79C1A04021F732E1007BC183 /* CEN10EmojiOnMiddlewareTest.m in Sources */,
+				79C1A03D21F732E1007BC183 /* CENEmojiPluginTest.m in Sources */,
+				79C1A01F21F732E1007BC183 /* CENObjectTest.m in Sources */,
+				79C19FF521F732E1007BC183 /* CENPluginsBuilderInterfaceTest.m in Sources */,
+				79C19FE921F732E1007BC183 /* CENChatSearchBuilderInterfaceTest.m in Sources */,
+				79C1A02821F732E1007BC183 /* CENErrorTest.m in Sources */,
+				79C1A00421F732E1007BC183 /* CENTemporaryObjectsManagerTest.m in Sources */,
+				79C1A07621F732E1007BC183 /* CEPPluginTest.m in Sources */,
+				79C1A01C21F732E1007BC183 /* CENSearchTest.m in Sources */,
+				79C1A0A021F732E1007BC183 /* CENUploadcareExtensionTest.m in Sources */,
+				79C1A03721F732E1007BC183 /* CENPushNotificationsPluginTest.m in Sources */,
+				79C1A01321F732E1007BC183 /* CENObjectPluginsTest.m in Sources */,
+				79C1A06121F732E1007BC183 /* CENMarkdownPluginParserTest.m in Sources */,
+				79C1A07321F732E1007BC183 /* CENRandomUsernamePluginTest.m in Sources */,
+				79C1A0DE21F733CF007BC183 /* CENTestEventEmitter.m in Sources */,
+				79C1A04921F732E1007BC183 /* CENOnlineUserSearchExtensionTest.m in Sources */,
+				79C19FEC21F732E1007BC183 /* CENChatBuilderInterfaceTest.m in Sources */,
+				79C1A07921F732E1007BC183 /* CEPExtensionTest.m in Sources */,
+				79C1A08821F732E1007BC183 /* CEN13EventStatusOnMiddlewareTest.m in Sources */,
+				79C1A09A21F732E1007BC183 /* CENUploadcarePluginTest.m in Sources */,
+				79C1A04321F732E1007BC183 /* CEN10EmojiEmitMiddlewareTest.m in Sources */,
+				7945D5C720712B1F00FECBFB /* CEDummyOnMiddleware.m in Sources */,
+				79C1A09721F732E1007BC183 /* CENUploadcareFileInformationTest.m in Sources */,
+				79C19FD421F732E1007BC183 /* CENChatEngineConnectionTest.m in Sources */,
+				79C1A03421F732E1007BC183 /* CENPushNotificationsMiddlewareTest.m in Sources */,
+				79C1A06A21F732E1007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m in Sources */,
+				79C1A02221F732E1007BC183 /* CENMeTest.m in Sources */,
+				79C19FCE21F732E1007BC183 /* CENChatEngineTest.m in Sources */,
+				79C19FFB21F732E1007BC183 /* CENUserConnectBuilderInterfaceTest.m in Sources */,
+				79C19FCB21F732E1007BC183 /* CENChatEngineUserTest.m in Sources */,
+				79C1A0E621F7340F007BC183 /* NSInvocation+CENTest.m in Sources */,
+				79C1A01021F732E1007BC183 /* CENChatTest.m in Sources */,
+				79C19FD121F732E1007BC183 /* CENChatEngineAuthorizationTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79A825FF206CC89C00648EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C1A0F821F8A0EB007BC183 /* CENUserConnectBuilderInterfaceTest.m in Sources */,
+				79C1A12221F91659007BC183 /* CENGravatarPluginTest.m in Sources */,
+				7945D5CD20712B1F00FECBFB /* CEDummyPlugin.m in Sources */,
+				79C1A0FF21F8A31C007BC183 /* CENChatEnginePubNubTest.m in Sources */,
+				79C1A11621F91405007BC183 /* CEPMiddlewareTest.m in Sources */,
+				79A82612206D300600648EE5 /* CENTestCase.m in Sources */,
+				79C1A13121F91FC3007BC183 /* CENTypingIndicatorPluginTest.m in Sources */,
+				79C1A0ED21F884CB007BC183 /* CENSearchTest.m in Sources */,
+				79C1A10F21F91351007BC183 /* CENSearchFilterPluginTest.m in Sources */,
+				79C1A10B21F91301007BC183 /* CENUploadcarePluginTest.m in Sources */,
+				79C1A10D21F91308007BC183 /* CENUploadcareExtensionTest.m in Sources */,
+				79C1A12B21F91EFB007BC183 /* CEN10EmojiEmitMiddlewareTest.m in Sources */,
+				79C1A12C21F91F5A007BC183 /* CENPushNotificationsExtensionTest.m in Sources */,
+				79C1A11721F91407007BC183 /* CEPPluginTest.m in Sources */,
+				79C1A12A21F91EF8007BC183 /* CEN10EmojiOnMiddlewareTest.m in Sources */,
+				79C1A12121F91631007BC183 /* CENUnreadMessagesExtensionTest.m in Sources */,
+				79C1A13021F91FBF007BC183 /* CENTypingIndicatorExtensionTest.m in Sources */,
+				79C1A12321F9165C007BC183 /* CENGravatarExtensionTest.m in Sources */,
+				79C1A0FB21F8A1CF007BC183 /* CENInterfaceBuilderTest.m in Sources */,
+				79C1A0FC21F8A1F1007BC183 /* CENChatEmitBuilderInterfaceTest.m in Sources */,
+				79C1A11321F9137B007BC183 /* CENEventStatusPluginTest.m in Sources */,
+				79C1A12921F91EF4007BC183 /* CENEmojiPluginTest.m in Sources */,
+				79C1A11F21F91564007BC183 /* CENMarkdownPluginParserTest.m in Sources */,
+				79C1A0EB21F73962007BC183 /* CENMeTest.m in Sources */,
+				79C1A12021F9162F007BC183 /* CENUnreadMessagesPluginTest.m in Sources */,
+				79C1A11D21F9155F007BC183 /* CENMarkdownPluginTest.m in Sources */,
+				79C1A12521F91A1A007BC183 /* CEN14MuterMiddlewareTest.m in Sources */,
+				79C1A10821F91286007BC183 /* CENChatEngineUserTest.m in Sources */,
+				79C1A10021F8A354007BC183 /* CENChatEngineSessionTest.m in Sources */,
+				79C1A11C21F91508007BC183 /* CENStateRestoreAugmentationMiddlewareTest.m in Sources */,
+				7945D5CB20712B1F00FECBFB /* CEDummyOnMiddleware.m in Sources */,
+				79C1A0EF21F89459007BC183 /* CENSessionTest.m in Sources */,
+				79C1A0F721F8A0D2007BC183 /* CENEventEmitterTest.m in Sources */,
+				79C1A0FD21F8A204007BC183 /* CENChatBuilderInterfaceTest.m in Sources */,
+				79C1A11421F913C1007BC183 /* CENOpenGraphPluginTest.m in Sources */,
+				79C1A0F521F89D2D007BC183 /* CENTemporaryObjectsManagerTest.m in Sources */,
+				79C1A12721F91E9E007BC183 /* CENOnlineUserSearchExtensionTest.m in Sources */,
+				79C1A11A21F91440007BC183 /* CENRandomUsernameExtensionTest.m in Sources */,
+				7945D5CA20712B1F00FECBFB /* CEDummyEmitMiddleware.m in Sources */,
+				79C1A10621F90EE9007BC183 /* CENChatEngineAuthorizationTest.m in Sources */,
+				79C1A0F621F8A0A9007BC183 /* CENChatsManagerTest.m in Sources */,
+				79C1A10921F912BE007BC183 /* CENChatEngineEventEmitterTest.m in Sources */,
+				79C1A02921F732E1007BC183 /* CENErrorTest.m in Sources */,
+				7945D5CC20712B1F00FECBFB /* CEDummyExtension.m in Sources */,
+				79C1A10121F8A396007BC183 /* CENChatEngineChatsTest.m in Sources */,
+				79C1A0F921F8A1A0007BC183 /* CENUserBuilderInterfaceTest.m in Sources */,
+				79C1A10521F90A86007BC183 /* CENChatEngineConnectionTest.m in Sources */,
+				79C1A11E21F91562007BC183 /* CEN17MarkdownMiddlewareTest.m in Sources */,
+				79C1A0FE21F8A2FB007BC183 /* CENChatSearchBuilderInterfaceTest.m in Sources */,
+				79C1A0EE21F89150007BC183 /* CEUserTest.m in Sources */,
+				79C1A11821F9140A007BC183 /* CEPExtensionTest.m in Sources */,
+				79C1A0EC21F884A0007BC183 /* CENObjectTest.m in Sources */,
+				79C1A0F421F89CF7007BC183 /* CENUsersManagerTest.m in Sources */,
+				79C1A0FA21F8A1B9007BC183 /* CENPluginsBuilderInterfaceTest.m in Sources */,
+				79C1A10C21F91305007BC183 /* CENUploadcareMiddlewareTest.m in Sources */,
+				79C1A11921F9143C007BC183 /* CENRandomUsernamePluginTest.m in Sources */,
+				79C1A0F321F89BA7007BC183 /* CENPluginsManagerTest.m in Sources */,
+				79C1A10321F903BB007BC183 /* CENChatEngineSearchTest.m in Sources */,
+				79C1A12D21F91F5D007BC183 /* CENPushNotificationsPluginTest.m in Sources */,
+				79C1A0EA21F7392F007BC183 /* CENConfigurationTest.m in Sources */,
+				79C1A11121F91375007BC183 /* CEN13EventStatusOnMiddlewareTest.m in Sources */,
+				79C1A10E21F9134E007BC183 /* CENSearchFilterMiddlewareTest.m in Sources */,
+				79C1A0F021F89476007BC183 /* CENObjectPluginsTest.m in Sources */,
+				79C1A12821F91EA2007BC183 /* CENOnlineUserSearchPluginTest.m in Sources */,
+				79C1A11B21F91505007BC183 /* CENStateRestoreAugmentationPluginTest.m in Sources */,
+				79C1A10221F90358007BC183 /* CENChatEnginePublishTest.m in Sources */,
+				79C1A12621F91A1E007BC183 /* CENMuterExtensionTest.m in Sources */,
+				79C1A12F21F91FBA007BC183 /* CEN8TypingIndicatorMiddlewareTest.m in Sources */,
+				79C1A11221F91378007BC183 /* CEN13EventStatusEmitMiddlewareTest.m in Sources */,
+				79C1A0DF21F733CF007BC183 /* CENTestEventEmitter.m in Sources */,
+				79C1A0F121F89497007BC183 /* CENChatTest.m in Sources */,
+				79C1A10721F91267007BC183 /* CENChatEngineTest.m in Sources */,
+				79C1A10A21F912F9007BC183 /* CENUploadcareFileInformationTest.m in Sources */,
+				79C1A12E21F91F60007BC183 /* CENPushNotificationsMiddlewareTest.m in Sources */,
+				79C1A10421F908B9007BC183 /* CENChatEnginePluginsTest.m in Sources */,
+				79C1A11021F91373007BC183 /* CENEventStatusExtensionTest.m in Sources */,
+				79C1A0E721F7340F007BC183 /* NSInvocation+CENTest.m in Sources */,
+				79C1A0F221F89B61007BC183 /* CENEventTest.m in Sources */,
+				79C1A11521F913C4007BC183 /* CENOpenGraphMiddlewareTest.m in Sources */,
+				79C1A12421F91A18007BC183 /* CENMuterPluginTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79C19F1621F731A4007BC183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C1A0E821F7340F007BC183 /* NSInvocation+CENTest.m in Sources */,
+				7995DC662210B04E00D51933 /* CEN14MuterPluginIntegrationTest.m in Sources */,
+				7995DC632210AD1300D51933 /* CEN12RandomUsernamePluginIntegrationTest.m in Sources */,
+				79C1A13321FC63DE007BC183 /* CEN3ChatEngineRemoteChatsListIntegrationTest.m in Sources */,
+				79C19F3421F731A4007BC183 /* CEDummyPlugin.m in Sources */,
+				7995DC5F2210A98500D51933 /* CEN5ChatEngineChatIntegrationTest.m in Sources */,
+				79B1463721FC99D3007C6B49 /* CEN2ChatEngineUserStateIntegrationTest.m in Sources */,
+				7995DC612210ABA200D51933 /* CEN9OnlineSearchPluginIntegrationTest.m in Sources */,
+				7995DC5D2210A7F500D51933 /* CEN6ChatEngineChatMetaIntegrationTest.m in Sources */,
+				79C19F3E21F731A4007BC183 /* CENTestCase.m in Sources */,
+				79C1A0D121F73321007BC183 /* CEN1ChatEngineConnectionIntegrationTest.m in Sources */,
+				79C19F3F21F731A4007BC183 /* CEDummyOnMiddleware.m in Sources */,
+				7995DC6A2210DC0F00D51933 /* CEN18GravatarPluginIntegrationTest.m in Sources */,
+				7995DC5E2210A93F00D51933 /* CEN7ChatEngineChatInviteIntegrationTest.m in Sources */,
+				7995DC692210DB6600D51933 /* CEN17MarkdownPluginIntegrationTest.m in Sources */,
+				7995DC682210DADB00D51933 /* CEN16UploadcarePluginIntegrationTest.m in Sources */,
+				7995DC622210ACDD00D51933 /* CEN10EmojiPluginIntegrationTest.m in Sources */,
+				79C1A0E021F733CF007BC183 /* CENTestEventEmitter.m in Sources */,
+				7995DC602210AA8800D51933 /* CEN8TypingIndicatorPluginIntegrationTest.m in Sources */,
+				7995DC652210AF1400D51933 /* CEN13EventStatusPluginIntegrationTest.m in Sources */,
+				7995DC672210DA2C00D51933 /* CEN15PushNotificationsPluginIntegrationTest.m in Sources */,
+				79C19F4621F731A4007BC183 /* CEDummyEmitMiddleware.m in Sources */,
+				7995DC642210ADD700D51933 /* CEN11UnreadMessagesPluginIntegrationTest.m in Sources */,
+				79C1A13221FB236F007BC183 /* CEN4ChatEngineHistoryIntegrationTest.m in Sources */,
+				79C19F4921F731A4007BC183 /* CEDummyExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79A1D2B02073A99600D97E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797ECFD52057C4D5007E15F5 /* iOS Host Application */;
+			targetProxy = 79A1D2B12073A99600D97E64 /* PBXContainerItemProxy */;
+		};
+		79C19F1221F731A4007BC183 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797ECFD52057C4D5007E15F5 /* iOS Host Application */;
+			targetProxy = 79C19F1321F731A4007BC183 /* PBXContainerItemProxy */;
+		};
+		79E8344620851FE800CE089B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 797ECFD52057C4D5007E15F5 /* iOS Host Application */;
+			targetProxy = 79E8344520851FE800CE089B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		797ED00E2057C6D2007E15F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797ED00F2057C6D2007E15F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		797ED0102057C6D2007E15F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				797ED0112057C6D2007E15F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		797ECFF52057C4D5007E15F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		797ECFF62057C4D5007E15F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		797ECFF82057C4D5007E15F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "$(SRCROOT)/Host Applications/iOS Host Application/Resources/General/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pubnub.ChatEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		797ECFF92057C4D5007E15F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_CODE_COVERAGE = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "$(SRCROOT)/Host Applications/iOS Host Application/Resources/General/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pubnub.ChatEngineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		797ED0262057C96E007E15F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A60C7BB4B215077CBD9A42 /* Pods-Tests-[Test] iOS Integration.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] iOS Integration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.-Test--iOS-Integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		797ED0272057C96E007E15F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B340F1D0FBCC390B059DF3 /* Pods-Tests-[Test] iOS Integration.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] iOS Integration/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.-Test--iOS-Integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A1D2C52073A99600D97E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DE54F81118B3E723B8465E7 /* Pods-Tests-[Test] Code Coverage (Full).debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] Code Coverage (Full)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Code-Coverage-Full";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Host Application.app/iOS Host Application";
+			};
+			name = Debug;
+		};
+		79A1D2C62073A99600D97E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7EBA18A4C21AB766C64C2F /* Pods-Tests-[Test] Code Coverage (Full).release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] Code Coverage (Full)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Code-Coverage-Full";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Host Application.app/iOS Host Application";
+			};
+			name = Release;
+		};
+		79A825EE206CC4B700648EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEDD1102EA6C84B0C76246A /* Pods-Tests-[Test] iOS Unit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] iOS Unit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Unit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79A825EF206CC4B700648EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3F85A48C705C5C8FDE1192 /* Pods-Tests-[Test] iOS Unit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] iOS Unit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Unit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79A8260B206CC89C00648EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80885ED5941D5A82BA326E9 /* Pods-Tests-[Test] Code Coverage (Unit).debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] Code Coverage (Unit)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Code-Coverage-Unit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Host Application.app/iOS Host Application";
+			};
+			name = Debug;
+		};
+		79A8260C206CC89C00648EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9168DB53D756E071C5DA55B6 /* Pods-Tests-[Test] Code Coverage (Unit).release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] Code Coverage (Unit)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Code-Coverage-Unit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Host Application.app/iOS Host Application";
+			};
+			name = Release;
+		};
+		79C19F6021F731A4007BC183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5A95BEE6B82A57F02A8AF9 /* Pods-Tests-[Test] Code Coverage (Integration).debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] Code Coverage (Full)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Code-Coverage-Integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Host Application.app/iOS Host Application";
+			};
+			name = Debug;
+		};
+		79C19F6121F731A4007BC183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F402CCAA4F35C5D46D0903 /* Pods-Tests-[Test] Code Coverage (Integration).release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LJE3GJ53Z7;
+				INFOPLIST_FILE = "[Test] Code Coverage (Full)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chatengine.-Test--iOS-Code-Coverage-Integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Host Application.app/iOS Host Application";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		797ECFD12057C4D5007E15F5 /* Build configuration list for PBXProject "ChatEngine Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797ECFF52057C4D5007E15F5 /* Debug */,
+				797ECFF62057C4D5007E15F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797ECFF72057C4D5007E15F5 /* Build configuration list for PBXNativeTarget "iOS Host Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797ECFF82057C4D5007E15F5 /* Debug */,
+				797ECFF92057C4D5007E15F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		797ED0252057C96E007E15F5 /* Build configuration list for PBXNativeTarget "[Test] iOS Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				797ED0262057C96E007E15F5 /* Debug */,
+				797ED0272057C96E007E15F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A1D2C42073A99600D97E64 /* Build configuration list for PBXNativeTarget "[Test] Code Coverage (Full)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A1D2C52073A99600D97E64 /* Debug */,
+				79A1D2C62073A99600D97E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A825F0206CC4B700648EE5 /* Build configuration list for PBXNativeTarget "[Test] iOS Unit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A825EE206CC4B700648EE5 /* Debug */,
+				79A825EF206CC4B700648EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79A8260A206CC89C00648EE5 /* Build configuration list for PBXNativeTarget "[Test] Code Coverage (Unit)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A8260B206CC89C00648EE5 /* Debug */,
+				79A8260C206CC89C00648EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C19F5F21F731A4007BC183 /* Build configuration list for PBXNativeTarget "[Test] Code Coverage (Integration)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C19F6021F731A4007BC183 /* Debug */,
+				79C19F6121F731A4007BC183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 797ECFCE2057C4D5007E15F5 /* Project object */;
+}
