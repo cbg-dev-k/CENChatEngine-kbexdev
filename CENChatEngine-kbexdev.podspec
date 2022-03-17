@@ -2,14 +2,14 @@ Pod::Spec.new do |spec|
     spec.name     = 'CENChatEngine-kbexdev'
     spec.version  = '0.9.4'
     spec.summary  = 'Framework for building chat applications.'
-    spec.homepage = 'https://github.com/pubnub/chat-engine-apple'
+    spec.homepage = 'https://github.com/kbex-dev/CENChatEngine-kbexdev'
 
     spec.authors = {
         'PubNub, Inc.' => 'support@pubnub.com'
     }
     spec.social_media_url = 'https://twitter.com/pubnub'
     spec.source = {
-        :git => 'https://github.com/pubnub/chat-engine-apple.git',
+        :git => 'https://github.com/kbex-dev/CENChatEngine-kbexdev.git',
         :tag => "v#{spec.version}"
     }
 
